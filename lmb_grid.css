@@ -1,0 +1,446 @@
+/* Contenedores */
+.caja {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cont-tabla {
+    overflow-x: auto; 
+    max-width: 95%;
+    height: 80vh;
+    padding-right: 0.6em;
+    padding-bottom: 0.6em;
+}
+
+/* Varios */
+.unica-celda {
+  padding: 0 0.3em;
+}
+
+.wrap-celda {
+  white-space: normal
+}
+
+/* Tablas */
+.fix-tablehead {
+  overflow-y: auto
+}
+
+.fix-tablehead thead th {
+  position: sticky;
+  top: 0;
+  border-right: solid white 0.2em;
+}
+
+.fix-tablehead tfoot th {
+  position: sticky;
+  bottom: 0;
+  border-right: solid white 0.2em;
+}
+
+.logos {
+    border: none;
+    text-align: center;
+    border-collapse: collapse;
+    white-space: nowrap;
+    color: white;
+    background-color: #82d682;
+}
+
+.logos thead tr {
+    background-color: #82d682;
+}
+
+.logos thead th {
+    background-color: CadetBlue;
+}
+
+.logos tfoot th {
+    background-color: CadetBlue;
+}
+
+.logos tbody tr.top1
+{
+    border-top: solid #90EE90 0.3em;
+}
+
+.logos tbody tr.top2
+{
+    border-top: solid #82d682 0.3em;
+}
+
+.logos td
+{
+    vertical-align: bottom;
+    padding-bottom: 0.3em;
+}
+
+.left1
+{
+    border-left: solid #90EE90 0.3em;
+}
+
+.right1
+{
+    border-right: solid #90EE90 0.3em;
+}
+
+.left2
+{
+    border-left: solid #82d682 0.3em;
+}
+
+.right2
+{
+    border-right: solid #82d682 0.3em;
+}
+
+.noLiga
+{
+    background-color: silver;
+    color: black;
+}
+
+.noLiga_changename
+{
+    border-right: black 0.1em dashed;
+}
+
+.unica-celda
+{
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+}
+
+.wrap-celda
+{
+    white-space: normal;
+}
+
+/* Colores */
+.fila1
+{
+    background-color: #90EE90;
+}
+
+.fila2
+{
+    background-color: #82d682;
+}
+
+.invisible1
+{
+    background-color: #90EE90;
+    color: #90EE90;
+}
+
+.invisible2
+{
+    background-color: #82d682;
+    color: #82d682;
+}
+
+/* A partir de 1955 */
+.lmb_veracruz {
+    background-color: White;
+    color: Red;
+}
+
+.lmb_cordoba {
+    background-color: SaddleBrown;
+    color: Yellow;
+}
+
+.lmb_tampico {
+    background-color: Yellow;
+    color: Blue;
+}
+
+.lmb_tampico_changename {
+    border-right: blue 0.1px dashed;
+}
+
+.lmb_monterrey {
+    background-color: DarkBlue;
+    color: White;
+}
+
+.lmb_monterrey_changename {
+    border-right: White 0.1em dashed;
+}
+
+.lmb_chihuahua {
+    background-color: Indigo;
+    color: Yellow;
+}
+
+.lmb_azules {
+    background-color: Silver;
+    color: Blue;
+}
+
+.lmb_diablos {
+    background-color: Red;
+    color: White;
+}
+
+.lmb_diablos_changename {
+    border-right: white 0.1em dashed;
+}
+
+.lmb_tecos {
+    background-color: Navy;
+    color: Red;
+}
+
+.lmb_tecos_changename {
+    border-right: Red 0.1em dashed;
+}
+
+.lmb_laguna {
+    background-color: #8C0834;
+    color: white;
+}
+
+.lmb_laguna_changename {
+    border-right: White 0.1em dashed;
+}
+
+.lmb_puebla {
+    background-color: Green;
+    color: Yellow;
+}
+
+/* .lmb_puebla {
+  background-color: DeepSkyBlue;
+  color: Snow;
+} */
+
+.lmb_puebla_changename {
+    border-right: Yellow 0.1em dashed;
+}
+
+.lmb_tigres {
+    background-color: Black;
+    color: LightGray;
+}
+
+.lmb_tigres_changename {
+    border-left: LightGray 0.1em dashed;
+}
+
+.lmb_yucatan {
+    background-color: DarkOrange;
+    color: forestGreen;
+}
+
+.lmb_pozarica {
+    background-color: OrangeRed;
+    color: aqua;
+}
+
+.lmb_reynosa {
+    background-color: Black;
+    color: Orange;
+}
+
+.lmb_reynosa_changename {
+    border-right: Orange 0.1em dashed;;
+}
+
+.lmb_saltillo {
+    background-color: MediumTurquoise;
+    color: Black;
+}
+
+.lmb_monclova {
+    background-color: Aqua;
+    color: Red;
+}
+
+.lmb_monclova_changename {
+    border-right: Red 0.1em dashed;;
+}
+
+.lmb_juarez {
+    background-color: Red;
+    color: Black;
+}
+
+.lmb_tabasco {
+    background-color: ForestGreen;
+    color: White;
+}
+
+.lmb_tabasco_changename {
+    border-right: White 0.1em dashed;
+}
+
+.lmb_aguas {
+    color: Maroon;
+    background-color: DeepSkyBlue;
+}
+
+.lmb_durango {
+    background-color: Gold;
+    color: DarkGreen;
+}
+
+.lmb_durango_changename {
+    border-right: darkgreen 0.1em dashed;
+}
+
+.lmb_leon {
+    background-color: GhostWhite;
+    color: Green;
+}
+
+.lmb_coatza {
+    color: darkblue;
+    background-color: DeepSkyBlue;
+}
+
+.lmb_campeche {
+    background-color: Black;
+    color: Gold;
+}
+
+.lmb_astros {
+    background-color: DarkOrange;
+    color: White;
+}
+
+.lmb_astros_changename {
+    border-left: white 0.1em dashed;
+}
+
+.lmb_inds {
+    background-color: LightSteelBlue;
+    color: Black;
+}
+
+/* Previos LMB a 1955 */
+.lmb_anahuac {
+    background-color: darkseagreen;
+    color: forestgreen
+}
+
+.lmb_anahuac_changename {
+    border-right: forestgreen 0.1em dashed;
+}
+
+.lmb_agricultura {
+    background-color: maroon;
+    color: springgreen
+}
+
+.lmb_cidosa {
+    background-color: midnightblue;
+    color: lightgreen;
+}
+
+.lmb_necaxa {
+    background-color: red;
+    color: gold;
+}
+
+.lmb_nogales {
+    background-color: darkgoldenrod;
+    color: khaki;
+}
+
+.lmb_pemex {
+    background-color: seagreen;
+    color: black;
+}
+
+.lmb_transito {
+    background-color: peru;
+    color: maroon;
+}
+
+.lmb_comintra {
+    background-color: Orange;
+    color: Black;
+}
+
+.lmb_gallos {
+    background-color: darkolivegreen;
+    color: Plum;
+}
+
+.lmb_slp {
+    background-color: LimeGreen;
+    color: Blue;
+}
+
+.lmb_slp_changename {
+    border-right: Blue 0.1em dashed;
+}
+
+.lmb_jalisco {
+    background-color: MediumBlue;
+    color: Yellow;
+}
+
+.lmb_jalisco_changename {
+    border-right: Yellow 0.1em dashed;
+}
+
+.lmb_mina {
+    background-color: Black;
+    color: Cyan;
+}
+
+.lmb_mina_changename {
+    border-right: Cyan 0.1em dashed;
+}
+
+.lmb_oaxaca {
+    background-color: White;
+    color: Black;
+}
+
+.lmb_cancun {
+    background-color: LightGray;
+    color: FireBrick;
+}
+
+.lmb_cancun_changename {
+    border-right: FireBrick 0.1em dashed;
+}
+
+.lmb_chetumal {
+    background-color: NavajoWhite;
+    color: SaddleBrown;
+}
+
+.lmb_carmen {
+    background-color: DarkMagenta;
+    color: LightGreen;
+}
+
+.lmb_tijuana {
+    background-color: FireBrick;
+    color: Cyan;
+}
+
+.lmb_tijuana_changename {
+    border-right: Cyan 0.1em dashed;
+}
+
+.lmb_mariachis {
+    background-color: RosyBrown;
+    color: BlanchedAlmond
+}
+
+.lmb_toluca {
+    background-color: DarkSlateGray;
+    color: White;
+}
+
+.lmb_queretaro {
+    background-color: indigo;
+    color: Gainsboro;
+}

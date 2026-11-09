@@ -1,0 +1,638 @@
+body {
+    font-family: "Roboto";
+}
+
+/* Contenedores */
+.caja {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cont-tabla {
+    overflow-x: auto; 
+    max-width: 95%;
+    height: 80vh;
+    padding-right: 0.6em;
+    padding-bottom: 0.6em;
+}
+
+.fix-tablehead
+{
+    overflow-y: auto;
+}
+
+.fix-tablehead thead th
+{
+    position: sticky;
+    top: 0;
+    border-right:white 0.2em solid;
+}
+
+.fix-tablehead tfoot th
+{
+    position: sticky;
+    bottom: 0;
+    border-right:white 0.2em solid;
+}
+
+/* Tablas */
+.logos {
+    border: none;
+    text-align: center;
+    border-collapse: collapse;
+    white-space: nowrap;   
+    color: white;
+    background-color: #82d682;
+}
+
+.logos thead tr {
+    background-color: #82d682;
+}
+
+.logos thead th {
+    background-color: CadetBlue; 
+}
+
+.logos tfoot th {
+    background-color: CadetBlue; 
+}
+
+.top1
+{
+    border-top: solid #90EE90 0.3em;
+}
+
+.logos tbody tr.top2
+{
+    border-top: solid #82d682 0.3em;
+}
+
+.logos td
+{
+    vertical-align: bottom;
+    padding-bottom: 0.3em;
+}
+
+.left1
+{
+    border-left: solid #90EE90 0.3em;
+}
+
+.right1
+{
+    border-right: solid #90EE90 0.3em;
+}
+
+.left2
+{
+    border-left: solid #82d682 0.3em;
+}
+
+.right2
+{
+    border-right: solid #82d682 0.3em;
+}
+
+.texto_abajo_ext
+{
+    vertical-align: bottom;
+    padding-bottom: 0.5em;
+}
+
+.texto_abajo
+{
+    vertical-align: bottom;
+}
+
+.noLiga
+{
+    background-color: lightgray;
+    color: gray;
+}
+
+.noLiga_ar
+{
+    background-color: lightgray;
+    color: gray;
+    text-align: right;
+    padding-right: 0.5em;
+}
+
+.noLiga_changename
+{
+    border-right: black 0.1em dashed;
+}
+
+.noLiga_chgname_left
+{
+    border-left: black 0.1em dashed;
+}
+
+.unica-celda
+{
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+    
+}
+
+.wrap-celda
+{
+    white-space: wrap;
+}
+
+/* Colores */
+.fila1
+{
+    background-color: #90EE90;
+}
+
+.fila2
+{
+    background-color: #82d682;
+}
+
+.invisible1
+{
+    background-color: #90EE90;
+    color: #90EE90;
+}
+
+.invisible2
+{
+    background-color: #82d682;
+    color: #82d682;
+}
+
+/* Equipos */
+/* .lmx_america
+{
+    background-color: palegoldenrod;
+    color: blue
+} */
+
+.lmx_america
+{
+    color: yellow;
+    background-color: blue
+}
+
+.lmx_asturias
+{
+    background-color: steelblue;
+    color: lightskyblue
+}
+
+.lmx_espana
+{
+    background-color: darkslategray;
+    color: goldenrod
+}
+
+.lmx_germania
+{
+    background-color: darkslategray;
+    color: wheat
+}
+
+.lmx_lyf {
+    background-color: peru;
+    color: maroon;
+}
+
+.lmx_tranvias {
+    background-color: mediumvioletred;
+    color: aqua;
+}
+
+.lmx_mexico {
+    background-color: darkkhaki;
+    color: black;
+}
+
+.lmx_marte
+{
+    background-color: darkolivegreen;
+    color: lightgreen;
+}
+
+.lmx_marte_changename
+{
+    border-right: lightgreen 0.1em dashed;
+}
+
+.lmx_necaxa
+{
+    background-color: red;
+    color: whitesmoke
+}
+
+.lmx_necaxa_changename
+{
+    border-right: whitesmoke 0.1em dashed;
+}
+
+.lmx_aurrera
+{
+    background-color: darkgreen;
+    color: burlywood
+}
+
+.lmx_reforma
+{
+    color: brown;
+    background-color: plum
+}
+
+.lmx_atlante
+{
+    color: crimson;
+    background-color: darkslateblue
+}
+
+.lmx_atlante_changename
+{
+    border-right: crimson 0.1em dashed;
+}
+
+.lmx_veracruz
+{
+    background-color: crimson;
+    color: aqua;
+}
+
+.lmx_leones
+{
+    background-color: coral;
+    color: forestgreen
+}
+
+.lmx_euzkadi
+{
+    background-color: lawngreen;
+    color: red;
+}
+
+.lmx_moctezuma
+{
+    background-color: steelblue;
+    color: white
+}
+
+.lmx_seljalisco
+{
+    background-color: royalblue;
+    color: burlywood
+}
+
+.lmx_atlas
+{
+    background-color: black;
+    color: crimson
+}
+
+.lmx_chivas
+{
+    background-color: white;
+    color: red
+}
+
+.lmx_ado
+{
+    background-color: purple;
+    color: beige
+}
+
+.lmx_oro
+{
+    background-color: gold;
+    color: white;
+}
+
+.lmx_oro_changename
+{
+    border-right: white 0.1em dashed;
+}
+
+.lmx_leon
+{
+    background-color: green;
+    color: white;
+}
+
+.lmx_leon_changename
+{
+    border-left: white 0.1em dashed;
+}
+
+.lmx_puebla
+{
+    background-color: snow;
+    color: cornflowerblue;
+}
+
+.lmx_monterrey
+{
+    background-color: navy;
+    color: ghostwhite;
+}
+
+.lmx_sebas
+{
+    background-color: yellowgreen;
+    color: lightyellow;
+}
+
+.lmx_tampico
+{
+    background-color: paleturquoise;
+    color: black;
+}
+
+.lmx_leon
+{
+    background-color: green;
+    color: white;
+}
+
+.lmx_zacatepec
+{
+    background-color: forestgreen;
+    color: gold;
+}
+
+.lmx_piedad
+{
+    background-color: indigo;
+    color: aquamarine;
+}
+
+.lmx_toluca
+{
+    background-color: crimson;
+    color: lawngreen;
+}
+
+.lmx_irapuato
+{
+    background-color: red;
+    color: mediumblue;
+}
+
+.lmx_cuautla
+{
+    background-color: tan;
+    color: palegoldenrod;
+}
+
+.lmx_zamora
+{
+    background-color: olive;
+    color: darksalmon;
+}
+
+.lmx_morelia
+{
+    background-color: yellow;
+    color: tomato;
+}
+
+.lmx_celaya
+{
+    background-color: lightblue;
+    color: smoke;
+}
+
+.lmx_nacgdl
+{
+    background-color: seagreen;
+    color: lightcyan;
+}
+
+.lmx_unam
+{
+    background-color: midnightblue;
+    color: peru;
+}
+
+.lmx_cruzazul
+{
+    background-color: blue;
+    color: white;
+}
+
+.lmx_cruzazul_changename
+{
+    border-right: white 0.1em dashed;
+}
+
+.lmx_madero
+{
+    background-color: black;
+    color:#ffff33
+}
+
+.lmx_jabatos
+{
+    background-color: limegreen;
+    color:blue
+}
+
+.lmx_pachuca
+{
+    background-color: darkslateblue;
+    color: khaki
+}
+
+.lmx_tigres
+{
+    background-color: yellow;
+    color: blue
+}
+
+.lmx_udec
+{
+    background-color: steelblue;
+    color: tan
+}
+
+.lmx_laguna
+{
+    background-color: darkmagenta;
+    color: powderblue
+}
+.lmx_torreon
+{
+    color: darkmagenta;
+    background-color: powderblue
+}
+
+.lmx_slp
+{
+    background-color: cyan;
+    color: orange
+}
+
+.lmx_atlesp
+{
+    background-color: black;
+    color: white
+}
+
+.lmx_potosino
+{
+    background-color: skyblue;
+    color: yellow
+}
+
+.lmx_tecos
+{
+    background-color: red;
+    color: yellow
+}
+
+.lmx_tecos_changename
+{
+    border-right: yellow 0.1em dashed;
+}
+
+.lmx_coyotes
+{
+    background-color: palegoldenrod;
+    color: maroon
+}
+
+.lmx_udg
+{
+    background-color: gold;
+    color: black
+}
+
+.lmx_queretaro
+{
+    background-color: royalblue;
+    color: black;
+}
+
+.lmx_qro_changename
+{
+    border-right: black 0.1em dashed;
+}
+
+.lmx_oaxtepec
+{
+    background-color: yellowgreen;
+    color: seagreen;
+}
+
+.lmx_angeles
+{
+    background-color: darkviolet;
+    color: seashell;
+}
+
+.lmx_cobras
+{
+    background-color: olivedrab;
+    color: coral;
+}
+
+.lmx_uat
+{
+    background-color: darkorange;
+    color: blue; 
+}
+
+.lmx_santos
+{
+    color: ivory;
+    background-color: limegreen; 
+}
+
+.lmx_utneza
+{
+    color: ivory;
+    background-color: orangered; 
+}
+
+.lmx_utneza_changename
+{
+    border-right: ivory 0.1em dashed;
+}
+
+.lmx_tammad
+{
+    background-color: lightslategray;
+    color: turquoise;
+}
+
+.lmx_chiapas
+{
+    color: darkorange;
+    background-color: seagreen
+}
+
+.lmx_rslp
+{
+    background-color: indigo;
+    color: gold
+}
+
+.lmx_rslp_changename
+{
+    border-right: gold 0.1em dashed;
+}
+
+.lmx_colibris
+{
+    color: lightblue;
+    background-color: darkseagreen;
+}
+
+.lmx_dorados
+{
+    color: khaki;
+    background-color: darkkhaki;
+}
+
+.lmx_indios
+{
+    background-color: beige;
+    color: brown
+}
+
+.lmx_tijuana
+{
+    background-color: darkred;
+    color: mintcream;
+}
+
+.lmx_buap
+{
+    background-color: chocolate;
+    color: aqua;
+}
+
+.lmx_atlslp
+{
+    background-color: mediumvioletred;
+    color: seashell;
+}
+
+.lmx_bravos
+{
+    background-color: #006666;
+    color: mistyrose;
+}
+
+.lmx_mazatlan
+{
+    background-color: darkorchid;
+    color: burlywood;
+}
+
+/* Este estilo se usa para agregarlo al segundo bloque de un año cuando aun no termina el torneo */
+.emparejar
+{
+    color: crimson;
+}

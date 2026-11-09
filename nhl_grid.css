@@ -1,0 +1,452 @@
+body {
+    font-family: "Roboto";
+}
+
+/* Contenedores */
+.caja {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cont-tabla {
+    overflow-x: auto; 
+    max-width: 95%;
+    height: 80vh;
+    padding-right: 0.6em;
+    padding-bottom: 0.6em;
+}
+
+.fix-tablehead
+{
+    overflow-y: auto;
+}
+
+.fix-tablehead thead th
+{
+    position: sticky;
+    top: 0;
+    border-right:white 0.2em solid;
+}
+
+.fix-tablehead tfoot th
+{
+    position: sticky;
+    bottom: 0;
+    border-right:white 0.2em solid;
+}
+
+/* Tablas */
+.logos {
+    border: none;
+    text-align: center;
+    border-collapse: collapse;
+    white-space: nowrap;   
+    color: white;
+    background-color: #c0dddd;
+}
+
+.logos thead tr {
+    background-color: #c0dddd;
+}
+
+.logos thead th {
+    background-color: CadetBlue; 
+}
+
+.logos tfoot th {
+    background-color: CadetBlue; 
+}
+
+.logos tbody tr.top1
+{
+    border-top: solid #d5f6f6 0.3em;
+}
+
+.logos tbody tr.top2
+{
+    border-top: solid #c0dddd 0.3em;
+}
+
+.logos td
+{
+    vertical-align: bottom;
+    padding-bottom: 0.3em;
+}
+
+.left1
+{
+    border-left: solid #d5f6f6 0.3em;
+}
+
+.right1
+{
+    border-right: solid #d5f6f6 0.3em;
+}
+
+.left2
+{
+    border-left: solid #c0dddd 0.3em;
+}
+
+.right2
+{
+    border-right: solid #c0dddd 0.3em;
+}
+
+.noLiga
+{
+    background-color: silver;
+    color: black;
+    text-align: right;
+    padding-right: 0.4em;
+}
+
+.noLiga_changename
+{
+    border-right: black 0.1em dashed;
+}
+
+.unica-celda
+{
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+    
+}
+
+.wrap-celda
+{
+    white-space: normal;
+}
+
+/* Colores */
+.fila1
+{
+    background-color: #d5f6f6;
+}
+
+.fila2
+{
+    background-color: #c0dddd;
+}
+
+.invisible2
+{
+    background-color: #c0dddd;
+    color: #c0dddd;
+}
+
+
+/* Equipos */
+.nhl_toronto
+{
+    background-color: #042664;
+}
+
+.nhl_toronto_changename
+{
+    border-right: white 0.1em dashed;
+}
+
+.nhl_montreal
+{
+    color: #CD0022;
+    background-color: beige;
+}
+
+.nhl_mont2
+{
+    color: chocolate;
+    background-color: khaki;
+}
+
+.nhl_hamilton
+{
+    background-color: darkolivegreen;
+    color: antiquewhite
+}
+
+.nhl_boston
+{
+    color: #FFC026;
+    background-color: black;
+}
+
+.nhl_mont3
+{
+    background-color: #87354A;
+}
+
+.nhl_nyam
+{
+    background-color: #F2F0DA;
+    color: navy;
+}
+
+.nhl_nyam_changename
+{
+    border-right: navy 0.1em dashed;
+}
+
+.nhl_chicago
+{
+    background-color: #D18A00;
+    color: black;
+}
+
+.nhl_chicago_changename
+{
+    border-right: black 0.1em dashed;
+}
+
+.nhl_detroit
+{
+    color: whitesmoke;
+    background-color: #C70F2F;
+}
+
+.nhl_detroit_changename
+{
+    border-right: whitesmoke 0.1em dashed;
+}
+
+.nhl_rangers
+{
+    background-color: #0072CE;
+}
+
+.nhl_lakings
+{
+    background-color: indigo;
+    color: lightgray;
+}
+
+.nhl_seals
+{
+    color: #047E04;
+    background-color: #FCB82B;
+}
+
+.nhl_seals_changename
+{
+    border-left: #047E04 0.1em dashed
+}
+
+.nhl_flyers
+{
+    background-color: #FC4614;
+    color: #040204;
+}
+
+.nhl_blues
+{
+    background-color: #0072CE;
+    color: yellow;
+}
+
+.nhl_pitt
+{
+    background-color: #fcc82f;
+    color: #040204
+}
+
+.nhl_minn
+{
+    background-color: #049538;
+}
+
+.nhl_dallas
+{
+    background-color: darkgreen;
+    color: silver
+}
+
+.nhl_buffalo
+{
+    background-color: yellow;
+    color: cornflowerblue;
+}
+
+.nhl_canucks
+{
+    background-color: darkorange;
+    color: gold
+}
+
+.nhl_islanders
+{
+    background-color: #04328b;
+    color: #fc4c04;
+}
+
+.nhl_flames
+{
+    background-color: #fc4c04;
+}
+
+.nhl_flames_changename
+{
+    border-right: white 0.1em dashed;
+}
+
+.nhl_washington
+{
+    background-color: black;
+    color: darkkhaki;
+}
+
+.nhl_kcscouts
+{
+    background-color: #061d80;
+    color: yellow;
+}
+
+.nhl_colorado
+{
+    color: skyblue;
+    background-color: #6d263d;
+}
+
+.nhl_devils
+{
+    background-color: crimson;
+    color: khaki;
+}
+
+.nhl_ottawa
+{
+    background-color: goldenrod;
+    color: firebrick;
+}
+
+.nhl_cleveland
+{
+    background-color: mediumvioletred;
+    color: white;
+}
+
+.nhl_oilers
+{
+    color: darkorange;
+    background-color: mediumblue;
+}
+
+.nhl_jets
+{
+    background-color: #042065;
+    color: silver;
+}
+
+.nhl_whalers
+{
+    color: #2c348c;
+    background-color: springgreen;
+}
+
+.nhl_quebec
+{
+    background-color: #1d4b7c;
+    color: red;
+}
+
+.nhl_sharks
+{
+    background-color: teal;
+    color: black
+}
+
+.nhl_tampa
+{
+    background-color: lightcyan;
+    color: mediumblue
+}
+
+.nhl_ducks_changename
+{
+    border-left: #fcc62c 0.1em dashed;
+}
+
+.nhl_ducks
+{
+    background-color: #04685c;
+    color: #fcc62c;
+}
+
+.nhl_florida
+{
+    background-color: #db2a1c;
+    color: #041e60;
+}
+
+.nhl_arizona_changename
+{
+    border-right: #6d263d 0.1em dashed;
+}
+
+.nhl_arizona
+{
+    color: #6d263d;
+    background-color: navajowhite
+}
+
+.nhl_carolina
+{
+    background-color: black;
+    color: crimson
+}
+
+.nhl_nashville
+{
+    background-color: #fcb71c;
+}
+
+.nhl_columbus
+{
+    background-color: darkgrey;
+    color: darkblue
+}
+
+.nhl_atlanta
+{
+    background-color: sienna;
+    color: yellow
+}
+
+.nhl_vegas
+{
+    color: black;
+    background-color: darkkhaki;
+}
+
+.nhl_seattle
+{
+    color: aquamarine;
+    background-color: lightseagreen;
+}
+
+.nhl_utah
+{
+    background-color: royalblue;
+    color: aqua;
+}
+
+.nhl_utah_changename
+{
+    border-left: aqua 0.1em dashed;
+}
+
+.nhl_nstars
+{
+    background-color: #049538;
+    color: yellow;
+}
+
+.ajuste_top1
+{
+    border-top: solid #d5f6f6 0.3em;
+}
+
+.ajuste_top2
+{
+    border-top: solid #c0dddd 0.3em;
+}

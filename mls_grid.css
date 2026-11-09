@@ -1,0 +1,389 @@
+body {
+    font-family: "Roboto";
+}
+
+/* Contenedores */
+.caja {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cont-tabla {
+    overflow-x: auto; 
+    max-width: 95%;
+    height: 80vh;
+    padding-right: 0.6em;
+    padding-bottom: 0.6em;
+}
+
+.fix-tablehead
+{
+    overflow-y: auto;
+}
+
+.fix-tablehead thead th
+{
+    position: sticky;
+    top: 0;
+    border-right:white 0.2em solid;
+}
+
+.fix-tablehead tfoot th
+{
+    position: sticky;
+    bottom: 0;
+    border-right:white 0.2em solid;
+}
+
+/* Tablas */
+.logos {
+    border: none;
+    text-align: center;
+    border-collapse: collapse;
+    white-space: nowrap;   
+    color: white;
+    background-color: #82d682;
+}
+
+.logos thead tr {
+    background-color: #82d682;
+}
+
+.logos thead th {
+    background-color: CadetBlue; 
+}
+
+.logos tfoot th {
+    background-color: CadetBlue; 
+}
+
+.top1
+{
+    border-top: solid #90EE90 0.3em;
+}
+
+.logos tbody tr.top2
+{
+    border-top: solid #82d682 0.3em;
+}
+
+.logos td
+{
+    vertical-align: bottom;
+    padding-bottom: 0.3em;
+    width: 300px;
+}
+
+.left1
+{
+    border-left: solid #90EE90 0.3em;
+}
+
+.right1
+{
+    border-right: solid #90EE90 0.3em;
+}
+
+.left2
+{
+    border-left: solid #82d682 0.3em;
+}
+
+.right2
+{
+    border-right: solid #82d682 0.3em;
+}
+
+.texto_abajo_ext
+{
+    vertical-align: bottom;
+    padding-bottom: 0.5em;
+}
+
+.texto_abajo
+{
+    vertical-align: bottom;
+}
+
+.noLiga
+{
+    background-color: lightgray;
+    color: gray;
+}
+
+.noLiga_ar
+{
+    background-color: lightgray;
+    color: gray;
+    text-align: right;
+    padding-right: 0.5em;
+}
+
+.noLiga_changename
+{
+    border-right: black 0.1em dashed;
+}
+
+.noLiga_chgname_left
+{
+    border-left: black 0.1em dashed;
+}
+
+.unica-celda
+{
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+    
+}
+
+.wrap-celda
+{
+    white-space: wrap;
+}
+
+/* Colores */
+.fila1
+{
+    background-color: #90EE90;
+}
+
+.fila2
+{
+    background-color: #82d682;
+}
+
+.invisible1
+{
+    background-color: #90EE90;
+    color: #90EE90;
+}
+
+.invisible2
+{
+    background-color: #82d682;
+    color: #82d682;
+}
+
+.mls_columbus
+{
+    background-color: black;
+    color: gold;
+}
+
+.mls_colorado
+{
+    background-color: mediumvioletred;
+    color: aqua;
+}
+
+.mls_dc
+{
+    background-color: black;
+    color: red;
+}
+
+.mls_dallas
+{
+    background-color: red;
+    color: black;
+}
+
+.mls_dallas_changename
+{
+    border-left: black 0.1em dashed;
+}
+
+.mls_galaxy
+{
+    background-color: gold;
+    color: olivedrab;
+}
+
+.mls_kansas
+{
+    background-color: midnightblue;
+    color: darkturquoise;
+}
+
+.mls_kansas_changename
+{
+    border-left: darkturquoise 0.1em dashed;
+}
+
+.mls_revolution
+{
+    background-color: red;
+    color: blue;
+}
+
+.mls_metros
+{
+    background-color: khaki;
+    color: red;
+}
+
+.mls_metros_changename
+{
+    border-left: red 0.1em dashed;
+}
+
+.mls_sanjose
+{
+    background-color: navy;
+    color: silver;
+}
+
+.mls_sanjose_changename
+{
+    border-left: silver 0.1em dashed;
+}
+
+.mls_mutiny
+{
+    background-color: mediumblue;
+    color: aquamarine;
+}
+
+.mls_chicago
+{
+    background-color: red;
+    color: aqua;
+}
+
+.mls_fusion
+{
+    background-color: ivory;
+    color: goldenrod;
+}
+
+.mls_chivas
+{
+    background-color: ivory;
+    color: red;
+}
+
+.mls_rsl
+{
+    background-color: firebrick;
+    color: navy;
+}
+
+.mls_houston
+{
+    background-color: darkorange;
+    color: white;
+}
+
+.mls_toronto
+{
+    background-color: silver;
+    color: firebrick;
+}
+
+.mls_seattle
+{
+    background-color: limegreen;
+    color: navy;
+}
+
+.mls_philly
+{
+    background-color: darkkhaki;
+    color: black;
+}
+
+.mls_portland
+{
+    background-color: darkgreen;
+    color: khaki;
+}
+
+.mls_vancouver
+{
+    background-color: blue;
+    color: seashell;
+}
+
+.mls_montreal
+{
+    background-color: indigo;
+    color: silver;
+}
+
+.mls_montreal_changename
+{
+    border-right: silver 0.1em dashed;
+}
+
+.mls_nyfc
+{
+    background-color: darkturquoise;
+    color: oldlace;
+}
+
+.mls_orlando
+{
+    background-color: purple;
+    color: ghostwhite;
+}
+
+.mls_atlanta
+{
+    background-color: brown;
+    color: moccasin;
+}
+
+.mls_minnesota
+{
+    background-color: paleturquoise;
+    color: black;
+}
+
+.mls_lafc
+{
+    background-color: burlywood;
+    color: black;
+}
+
+.mls_cincinnati
+{
+    background-color: darkorange;
+    color: blue;
+}
+
+.mls_miami
+{
+    background-color: hotpink;
+    color: whitesmoke;
+}
+
+.mls_nashville
+{
+    background-color: yellow;
+    color: black;
+}
+
+.mls_austin
+{
+    background-color: black;
+    color: limegreen;
+}
+
+.mls_charlotte
+{
+    color: mediumblue;
+    background-color: aquamarine;
+}
+
+.mls_stlouis
+{
+    color: white;
+    background-color: red;
+}
+
+.mls_sandiego
+{
+    color: white;
+    background-color: black;
+}
