@@ -9,30 +9,6 @@ body {
     align-items: center;
 }
 
-.cont-tabla {
-    overflow-x: auto;
-    max-width: 95%;
-    height: 80vh;
-    padding-right: 0.6em;
-    padding-bottom: 0.6em;
-}
-
-.fix-tablehead {
-    overflow-y: auto;
-}
-
-.fix-tablehead thead th {
-    position: sticky;
-    top: 0;
-    border-right: white 0.2em solid;
-}
-
-.fix-tablehead tfoot th {
-    position: sticky;
-    bottom: 0;
-    border-right: white 0.2em solid;
-}
-
 /* Tablas */
 .table_timeline {
     border: none;

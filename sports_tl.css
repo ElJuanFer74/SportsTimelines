@@ -29,82 +29,36 @@ body {
   margin: 0;
   text-transform: uppercase;
   letter-spacing: 6px;
-  font-size: 14px;
+  font-size: 28px;
   font-weight: 600;
+}
+
+.main-wrapper {
+  display: flex;
+  flex-direction: column;
 }
 
 .league-title {
   margin: 6px 0 0 0;
-  font-size: 26px;
+  font-size: 24px;
   font-weight: 700;
 }
 
 .league-title-pos {
-    text-align: center; 
-    padding-top: 12px;
+  text-align: center;
+  padding-top: 12px;
 }
 
 .timeline-wrapper {
-  width: min(1400px, calc(100% - 32px));
-  margin: 12px auto 48px auto;
+  /* width: min(1400px, calc(100% - 32px)); */
+  width: 94%;
+  margin: 12px auto 4px auto;
   background: #ffffff;
   border: 1px solid #d9d9d9;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
   display: block;
 }
 
-.cont-tabla {
-    overflow-x: auto;
-    border: blue 0.2em solid;
-    /* max-width: 95%; */
-    height: 80vh;
-    /* padding-right: 0.6em; */
-    /* padding-bottom: 0.6em; */
-    margin: 1em;
-}
-
-.fix-tablehead
-{
-    overflow-y: auto;
-}
-
-.fix-tablehead thead th
-{
-    position: sticky;
-    top: 0;
-    border-right:white 0.2em solid;
-}
-
-.fix-tablehead tfoot th
-{
-    position: sticky;
-    bottom: 0;
-    border-right:white 0.2em solid;
-}
-
-/* Tablas */
-.logos {
-    border: none;
-    text-align: center;
-    border-collapse: collapse;
-    white-space: nowrap;
-    color: white;
-    /* background-color: #82d682; */
-}
-
-.logos thead th {
-    background-color: CadetBlue;
-    /* width: 75px; */
-}
-
-.logos tfoot th {
-    background-color: CadetBlue;
-    /* width: 75px; */
-}
-
-.ajustes td { width: 80px; }
-
-/* 
 .timeline {
   position: relative;
   width: 100%;
@@ -114,6 +68,7 @@ body {
   overflow: auto;
 }
 
+/*
 .timeline-inner {
   position: relative;
   width: calc(var(--total-years, 1) * var(--year-width) + 96px);
@@ -123,3 +78,64 @@ body {
   flex-direction: column;
   gap: 8px;
 } */
+
+.cont-tabla {
+  overflow-x: auto;
+  border: black 0.2em solid;
+  /* max-width: 95%; */
+  height: 70vh;
+  margin: 1em;
+}
+
+.fix-tablehead {
+  overflow-y: auto;
+}
+
+.fix-tablehead thead th {
+  position: sticky;
+  top: 0;
+  border-right: white 0.2em solid;
+}
+
+.fix-tablehead tfoot th {
+  position: sticky;
+  bottom: 0;
+  border-right: white 0.2em solid;
+}
+
+.notes-wrapper {
+  display: flex;
+  justify-content: space-between;
+  /* border: blue 0.2em solid; */
+  width: min(1400px, calc(100% - 32px));
+  margin: 12px auto 48px auto;
+}
+
+.note-container {
+  border: black 0.1em solid;
+  background-color: white
+}
+
+/* Tablas */
+.logos {
+  border: none;
+  text-align: center;
+  border-collapse: collapse;
+  white-space: nowrap;
+  color: white;
+  /* background-color: #82d682; */
+}
+
+.logos thead th {
+  background-color: CadetBlue;
+  /* width: 75px; */
+}
+
+.logos tfoot th {
+  background-color: CadetBlue;
+  /* width: 75px; */
+}
+
+.ajustes td {
+  width: 80px;
+}
