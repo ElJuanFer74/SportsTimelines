@@ -216,14 +216,24 @@ export function createStageRow(config = {}) {
       stage && Array.isArray(stage.inferior) ? stage.inferior : null;
     const hasInf = Array.isArray(inferiorCells) && inferiorCells.length > 0;
 
-    for (const c of superiorCells) {
-      const td = buildCell(c);
-      superiorRow.appendChild(td);
-    }
+    // Atributo opcional "veces": si viene un número mayor a 1, se repite
+    // esa iteración (la carga de las celdas de este stage) esa cantidad.
+    const vecesRaw = stage && stage.veces;
+    const vecesNum = Number(vecesRaw);
+    const reps = Number.isFinite(vecesNum) && vecesNum > 1
+      ? Math.trunc(vecesNum)
+      : 1;
 
-    if (hasInf && inferiorRow) {
-      for (const c of inferiorCells) {
-        inferiorRow.appendChild(buildCell(c));
+    for (let v = 0; v < reps; v++) {
+      for (const c of superiorCells) {
+        const td = buildCell(c);
+        superiorRow.appendChild(td);
+      }
+
+      if (hasInf && inferiorRow) {
+        for (const c of inferiorCells) {
+          inferiorRow.appendChild(buildCell(c));
+        }
       }
     }
   }
