@@ -17,23 +17,20 @@ body {
     padding-bottom: 0.6em;
 }
 
-.fix-tablehead
-{
+.fix-tablehead {
     overflow-y: auto;
 }
 
-.fix-tablehead thead th
-{
+.fix-tablehead thead th {
     position: sticky;
     top: 0;
-    border-right:white 0.2em solid;
+    border-right: white 0.2em solid;
 }
 
-.fix-tablehead tfoot th
-{
+.fix-tablehead tfoot th {
     position: sticky;
     bottom: 0;
-    border-right:white 0.2em solid;
+    border-right: white 0.2em solid;
 }
 
 /* Tablas */
@@ -56,271 +53,231 @@ body {
     /* width: 75px; */
 }
 
-.table_timeline td
-{
+.table_timeline td {
     vertical-align: bottom;
     padding-bottom: 0.3em;
     white-space: wrap;
 }
 
-.ajustes td { width: 45px; }
+.ajustes td {
+    width: 45px;
+}
 
 /* Colores */
-.fila1
-{
+.fila1 {
     background-color: navajowhite;
 }
 
-.fila2
-{
+.fila2 {
     background-color: burlywood;
 }
 
-.top1
-{
+.top1 {
     border-top: solid navajowhite 0.3em;
 }
 
-.top2
-{
+.top2 {
     border-top: solid burlywood 0.3em;
 }
 
-.invisible
-{
+.invisible {
     background-color: CadetBlue;
     color: CadetBlue;
 }
 
-.noLiga
-{
+.noLiga {
     background-color: silver;
     color: black;
     text-align: right;
     padding-right: 0.4em;
 }
 
-.noLiga_chgname
-{
+.noLiga_chgname {
     border-left: black 0.1em dashed;
 }
 
 /* Colores equipos */
-.nba_anderson
-{
+.nba_anderson {
     background-color: rebeccapurple;
     color: chartreuse
 }
 
-.nba_sheboygan
-{
+.nba_sheboygan {
     background-color: papayawhip;
     color: indianred
 }
 
-.nba_bombers
-{
+.nba_bombers {
     color: mediumvioletred;
     background-color: darkkhaki
 }
 
-.nba_denver
-{
+.nba_denver {
     background-color: maroon;
     color: deepskyblue
 }
 
-.nba_stags
-{
+.nba_stags {
     background-color: lightcyan;
     color: fuchsia
 }
 
-.nba_waterloo
-{
+.nba_waterloo {
     background-color: seashell;
     color: tomato
 }
 
-.nba_tricities
-{
+.nba_tricities {
     background-color: black;
     color: lavender;
 }
 
-.nba_76ers
-{
+.nba_76ers {
     background-color: blue;
     color: white;
 }
 
-.nba_76ers_chgname
-{
+.nba_76ers_chgname {
     border-left: white 0.1em dashed;
 }
 
-.nba_bullets
-{
+.nba_bullets {
     background-color: darkblue;
     color: crimson;
 }
 
-.nba_bullets_chgname
-{
+.nba_bullets_chgname {
     border-left: crimson 0.1em dashed;
 }
 
-.nba_pistons
-{
+.nba_pistons {
     background-color: crimson;
     color: cyan;
 }
 
-.nba_pistons_chgname
-{
+.nba_pistons_chgname {
     border-left: cyan 0.1em dashed;
 }
 
-.nba_boston
-{
+.nba_boston {
     background-color: darkgreen;
     color: white;
 }
 
-.nba_capitals
-{
+.nba_capitals {
     background-color: lightgray;
     color: forestgreen;
 }
 
-.nba_kings
-{
+.nba_kings {
     background-color: mediumorchid;
     color: black;
 }
 
-.nba_kings_chgname
-{
+.nba_kings_chgname {
     border-left: black 0.1em dashed;
 }
 
-.nba_warriors
-{
+.nba_warriors {
     background-color: yellow;
     color: dodgerblue;
 }
 
-.nba_warriors_chgname
-{
+.nba_warriors_chgname {
     border-left: dodgerblue 0.1em dashed;
 }
 
-.nba_lakers
-{
+.nba_lakers {
     background-color: gold;
     color: blueviolet;
 }
 
-.nba_lakers_chgname
-{
+.nba_lakers_chgname {
     border-left: blueviolet 0.1em dashed;
 }
 
-.nba_olympians
-{
+.nba_olympians {
     background-color: darkgray;
     color: gold;
 }
 
-.nba_knicks
-{
+.nba_knicks {
     background-color: mediumblue;
     color: darkorange
 }
 
-.nba_hawks
-{
+.nba_hawks {
     background-color: silver;
     color: red;
 }
 
-.nba_hawks_chgname
-{
+.nba_hawks_chgname {
     border-left: red 0.1em dashed;
 }
 
-.nba_packers
-{
+.nba_packers {
     background-color: brown;
     color: chartreuse
 }
 
-.nba_packers_chgname
-{
+.nba_packers_chgname {
     border-left: chartreuse 0.1em dashed;
 }
 
-.nba_chicago
-{
+.nba_chicago {
     background-color: crimson;
     color: white
 }
 
-.nba_seattle
-{
+.nba_seattle {
     background-color: green;
     color: gold;
 }
 
-.nba_rockets
-{
+.nba_rockets {
     background-color: red;
     color: yellow;
 }
 
-.nba_rockets_chgname
-{
+.nba_rockets_chgname {
     border-left: yellow 0.1em dashed;
 }
 
-.nba_phoenix
-{
+.nba_phoenix {
     background-color: indigo;
     color: orange;
 }
 
-.nba_milwaukee
-{
+.nba_milwaukee {
     color: moccasin;
     background-color: olivedrab;
 }
 
-.nba_cleveland
-{
+.nba_cleveland {
     background-color: maroon;
     color: gold;
 }
 
-.nba_portland
-{
+.nba_portland {
     background-color: black;
     color: red;
 }
 
-.nba_buffalo
-{
+.nba_buffalo {
     background-color: deepskyblue;
     color: white;
 }
 
-.nba_jazz
-{
+.nba_jazz {
     background-color: midnightblue;
     color: powderblue;
 }
 
-.nba_indiana
-{
+.nba_jazz_chgname {
+    border-left: powderblue 0.1em dashed;
+}
+
+.nba_indiana {
     background-color: mediumblue;
     color: gold
 }
@@ -342,4 +299,66 @@ body {
 .nba_clippers {
     background-color: deepskyblue;
     color: blue
+}
+
+.nba_clippers_chgname {
+    border-left: blue 0.1em dashed;
+}
+
+.nba_dallas {
+    background-color: chartreuse;
+    color: blue;
+}
+
+.nba_hornets {
+    background-color: skyblue;
+    color: #006666;
+}
+
+.nba_hornets_chgname {
+    border-left: #006666 0.1em dashed;
+}
+
+.nba_miami {
+    background-color: red;
+    color: black;
+}
+
+.nba_wolves {
+    background-color: navy;
+    color: lime;
+}
+
+.nba_orlando {
+    background-color: darkgray;
+    color: mediumblue;
+}
+
+.nba_toronto {
+    background-color: darkmagenta;
+    color: magenta;
+}
+
+.nba_grizzlies {
+    background-color: lightsteelblue;
+    color: yellow;
+}
+
+.nba_grizzlies_chgname {
+    border-left: yellow 0.1em dashed;
+}
+
+.nba_bobcats {
+    background-color: orange;
+    color: darkslateblue;
+}
+
+.nba_thunder {
+    background-color: mediumturquoise;
+    color: orangered;
+}
+
+.nba_pelicans {
+    background-color: tan;
+    color: darkblue;
 }
