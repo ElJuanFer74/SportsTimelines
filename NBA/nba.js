@@ -1,7 +1,7 @@
 // nba.js
 // Módulo ES: ejemplo de uso de sports_tl.js para la NBA.
 
-import { createYearHeaderRow, createStageRows } from './sports_tl.js';
+import { createYearHeaderRow, createStageRows } from '../sports_tl.js';
 
 /**
  * Genera la fila de años de la NBA en el <thead> y <tfoot> de

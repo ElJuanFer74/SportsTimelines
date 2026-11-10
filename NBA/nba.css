@@ -74,8 +74,8 @@ body {
 
 /* Colores equipos */
 .nba_anderson {
-    background-color: rebeccapurple;
-    color: chartreuse
+    background-color: #BA9653;
+    color: #007A33;
 }
 
 .nba_sheboygan {
@@ -89,18 +89,18 @@ body {
 }
 
 .nba_denver {
-    background-color: maroon;
-    color: deepskyblue
+    background-color: #0E2240;
+    color: #FEC524;
 }
 
 .nba_stags {
-    background-color: lightcyan;
-    color: brown
+    background-color: sienna;
+    color: darksalmon
 }
 
 .nba_waterloo {
-    background-color: seashell;
-    color: tomato
+    background-color: lemonchiffon;
+    color: teal
 }
 
 .nba_tricities {
@@ -109,34 +109,34 @@ body {
 }
 
 .nba_76ers {
-    background-color: blue;
-    color: white;
+    background-color: #0000E6;
+    color: #ED174C;
 }
 
 .nba_76ers_chgname {
-    border-left: white 0.1em dashed;
+    border-left: #ED174C 0.1em dashed;
 }
 
 .nba_bullets {
-    background-color: darkblue;
-    color: crimson;
+    background-color: #002B5C;
+    color: #E31837;
 }
 
 .nba_bullets_chgname {
-    border-left: crimson 0.1em dashed;
+    border-left: #E31837 0.1em dashed;
 }
 
 .nba_pistons {
-    background-color: crimson;
-    color: cyan;
+    background-color: #D0314B;
+    color: #1D42BA;
 }
 
 .nba_pistons_chgname {
-    border-left: cyan 0.1em dashed;
+    border-left: #1D42BA 0.1em dashed;
 }
 
 .nba_boston {
-    background-color: darkgreen;
+    background-color: #007A33;
     color: white;
 }
 
@@ -146,7 +146,7 @@ body {
 }
 
 .nba_kings {
-    background-color: mediumorchid;
+    background-color: #765096;
     color: black;
 }
 
@@ -155,40 +155,40 @@ body {
 }
 
 .nba_warriors {
-    background-color: yellow;
-    color: dodgerblue;
+    background-color: #FFC72C;
+    color: #1D428A;
 }
 
 .nba_warriors_chgname {
-    border-left: dodgerblue 0.1em dashed;
+    border-left: #1D428A 0.1em dashed;
 }
 
 .nba_lakers {
-    background-color: gold;
-    color: blueviolet;
+    background-color: #552583;
+    color: #FDB927;
 }
 
 .nba_lakers_chgname {
-    border-left: blueviolet 0.1em dashed;
+    border-left: #FDB927 0.1em dashed;
 }
 
 .nba_olympians {
-    background-color: darkgray;
-    color: gold;
+    background-color: gainsboro;
+    color: orangered;
 }
 
 .nba_knicks {
-    background-color: mediumblue;
-    color: darkorange
+    background-color: #006BB6;
+    color: #F58426
 }
 
 .nba_hawks {
-    background-color: silver;
-    color: red;
+    background-color: #E03A3E;
+    color: #C1D32F;
 }
 
 .nba_hawks_chgname {
-    border-left: red 0.1em dashed;
+    border-left: #C1D32F 0.1em dashed;
 }
 
 .nba_packers {
@@ -201,37 +201,37 @@ body {
 }
 
 .nba_chicago {
-    background-color: crimson;
+    background-color: #CE1141;
     color: white
 }
 
 .nba_seattle {
-    background-color: green;
-    color: gold;
+    background-color: #046a3c;
+    color: #fcbe14;
 }
 
 .nba_rockets {
-    background-color: red;
-    color: yellow;
+    background-color: #98002E;
+    color: #F9A01B;
 }
 
 .nba_rockets_chgname {
-    border-left: yellow 0.1em dashed;
+    border-left: #F9A01B 0.1em dashed;
 }
 
 .nba_phoenix {
-    background-color: indigo;
-    color: orange;
+    background-color: #1D1160;
+    color: #E56020;
 }
 
 .nba_milwaukee {
-    color: moccasin;
-    background-color: olivedrab;
+    background-color: #EEE1C6;
+    color: #00471B;
 }
 
 .nba_cleveland {
-    background-color: maroon;
-    color: gold;
+    background-color: #860038;
+    color: #FDBB30;
 }
 
 .nba_portland {
@@ -240,22 +240,22 @@ body {
 }
 
 .nba_buffalo {
-    background-color: deepskyblue;
-    color: white;
+    color: #C4CED4;
+    background-color: #0077C0;
 }
 
 .nba_jazz {
-    background-color: midnightblue;
-    color: powderblue;
+    background-color: #00538C;
+    color: #B8C4CA;
 }
 
 .nba_jazz_chgname {
-    border-left: powderblue 0.1em dashed;
+    border-left: #B8C4CA 0.1em dashed;
 }
 
 .nba_indiana {
-    background-color: mediumblue;
-    color: gold
+    background-color: #3155a1;
+    color: #FDBB30
 }
 
 .nba_spurs {
@@ -273,30 +273,30 @@ body {
 }
 
 .nba_clippers {
-    background-color: deepskyblue;
-    color: blue
+    background-color: #4790c8;
+    color: #0C2340
 }
 
 .nba_clippers_chgname {
-    border-left: blue 0.1em dashed;
+    border-left: #0C2340 0.1em dashed;
 }
 
 .nba_dallas {
-    background-color: chartreuse;
+    background-color: #00E600;
     color: blue;
 }
 
 .nba_hornets {
-    background-color: skyblue;
-    color: #006666;
+    color: #1D1160;
+    background-color: #00788C;
 }
 
 .nba_hornets_chgname {
-    border-left: #006666 0.1em dashed;
+    border-left: #1D1160 0.1em dashed;
 }
 
 .nba_miami {
-    background-color: red;
+    background-color: #e60000;
     color: black;
 }
 
@@ -306,8 +306,8 @@ body {
 }
 
 .nba_orlando {
-    background-color: darkgray;
-    color: mediumblue;
+    background-color: #C4CED4;
+    color: #0077C0;
 }
 
 .nba_toronto {
@@ -316,25 +316,25 @@ body {
 }
 
 .nba_grizzlies {
-    background-color: lightsteelblue;
-    color: yellow;
+    background-color: #7399C6;
+    color: #12173F;
 }
 
 .nba_grizzlies_chgname {
-    border-left: yellow 0.1em dashed;
+    border-left: #12173F 0.1em dashed;
 }
 
 .nba_bobcats {
-    background-color: orange;
-    color: darkslateblue;
+    background-color: #ec6634;
+    color: #1544D0;
 }
 
 .nba_thunder {
-    background-color: mediumturquoise;
-    color: orangered;
+    color: #006098;
+    background-color: #F15541;
 }
 
 .nba_pelicans {
-    background-color: tan;
-    color: darkblue;
+    background-color: #85714D;
+    color: #0C2340;
 }
