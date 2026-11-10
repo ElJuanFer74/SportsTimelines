@@ -83,7 +83,7 @@ body {
   overflow-x: auto;
   border: black 0.2em solid;
   /* max-width: 95%; */
-  height: 70vh;
+  height: 64vh;
   margin: 1em;
 }
 
@@ -114,6 +114,14 @@ body {
 .note-container {
   border: black 0.1em solid;
   background-color: white
+}
+
+.note-row {
+  margin: 5px 10px;
+}
+
+.note-key {
+  font-weight: bold;
 }
 
 /* Tablas */

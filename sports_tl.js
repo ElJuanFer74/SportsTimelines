@@ -7,11 +7,13 @@
  * indicados e lo inserta en el <thead> y <tfoot> de la tabla con
  * id "table_timeline". Si no existen, los crea.
  *
- * @param {Array<{startYear:number, endYear:number, columns?:number}>} ranges
+ * @param {Array<{startYear:number|string, endYear:number|string, columns?:number}>} ranges
  *   Colección de objetos. Cada objeto define un rango de años [startYear,
  *   endYear] (inclusive) y una cantidad opcional de columnas (colspan) que
  *   se aplica a cada <th> de ese rango. Si `columns` no se especifica (o es
  *   1) no se añade el atributo colspan.
+ *   Si `startYear` o `endYear` son strings, se trata como un único año/sección
+ *   (equivalente a startYear === endYear), produciendo un solo <th>.
  * @returns {HTMLTableRowElement} La fila creada (la insertada en <thead>).
  */
 export function createYearHeaderRow(ranges = []) {
@@ -24,6 +26,30 @@ export function createYearHeaderRow(ranges = []) {
   for (const item of ranges) {
     if (item === null || typeof item !== "object") {
       throw new TypeError("Cada elemento de la colección debe ser un objeto.");
+    }
+
+    const startIsString = typeof item.startYear === "string";
+    const endIsString = typeof item.endYear === "string";
+
+    // Si alguno de los dos es string, se trata como una única sección de un
+    // año (equivalente a startYear === endYear), sin intentar interpretar un
+    // rango numérico.
+    if (startIsString || endIsString) {
+      const label =
+        startIsString ? item.startYear : item.endYear;
+
+      const columns = Number.isFinite(Number(item.columns))
+        ? Math.trunc(Number(item.columns))
+        : 1;
+      const useColspan = columns > 1;
+
+      const th = document.createElement("th");
+      th.textContent = String(label);
+      if (useColspan) {
+        th.setAttribute("colspan", String(columns));
+      }
+      row.appendChild(th);
+      continue;
     }
 
     const start = Number(item.startYear);
