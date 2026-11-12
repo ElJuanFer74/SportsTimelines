@@ -11,9 +11,9 @@ import { createYearHeaderRow, createStageRows } from '../sports_tl.js';
  */
 export function initNbaTableYears() {
   return createYearHeaderRow([
-    { startYear: "Prev", endYear: "Prev", columns: 2 },
-    { startYear: 1949, endYear: 1949 },
-    { startYear: 1950, endYear: 2026, columns: 2 },
+    // { startYear: "Prev", endYear: "Prev", columns: 2 },
+    { startYear: 1946, endYear: 1946 },
+    { startYear: 1947, endYear: 2026, columns: 2 },
     { startYear: 2027, endYear: 2027 },
   ]);
 }
@@ -21,45 +21,12 @@ export function initNbaTableYears() {
 export function initNbaTableData() {
   return createStageRows([
     {
-      className: 'fila1 top1',
-      etapas: [
-        { superior: [{ claseName: 'noLiga', texto: 'NBL', cols: 2 }] },
-        {
-          superior: [
-            { claseName: 'nba_anderson', texto: 'Anderson Packers', cols: 2 },
-          ]
-        },
-        { superior: [{ claseName: 'noLiga', texto: 'NPBL', cols: 2 }] },
-        { veces: 3, superior: [{ cols: 50 }] },
-        { superior: [{ cols: 2 }] },
-      ]
-    },
-    {
-      className: 'fila2 top2',
-      etapas: [
-        { superior: [{ claseName: 'noLiga', texto: 'ABL' }] },
-        {
-          superior: [
-            { claseName: 'noLiga noLiga_chgname', texto: 'BAA' },
-          ]
-        },
-        {
-          superior: [
-            { claseName: 'nba_bullets', texto: 'Baltimore Bullets', cols: 9 },
-          ]
-        },
-        { superior: [{ cols: 51 }] },
-        { superior: [{ cols: 50 }] },
-        { superior: [{ cols: 46 }] },
-      ]
-    },
-    {
       className: 'nba_boston top1',
       classNameInf: 'nba_boston',
       etapas: [
-        { superior: [{ className: 'noLiga', texto: 'BAA', rows: 2, cols: 2 }] },
-        { superior: [{ texto: 'Boston Celtics', rows: 2, cols: 8 }] },
-        { superior: [{ texto: 'Boston Celtics', rows: 2, cols: 6 }] },
+        // { superior: [{ className: 'noLiga', texto: 'BAA', rows: 2, cols: 2 }] },
+        { superior: [{ texto: 'Boston Celtics', rows: 2, cols: 10 }] },
+        { superior: [{ texto: 'Boston Celtics', rows: 2, cols: 10 }] },
         {
           superior: [
             { texto: '★', cols: 2 },
@@ -134,10 +101,9 @@ export function initNbaTableData() {
     {
       className: 'fila2 top2',
       etapas: [
-        { superior: [{ className: 'noLiga', texto: 'BAA', cols: 2 }] },
         {
           superior: [
-            { claseName: 'nba_stags', texto: 'Chicago Stags', cols: 2 },
+            { claseName: 'nba_stags', texto: 'Chicago Stags', cols: 8 },
           ]
         },
         { veces: 3, superior: [{ cols: 50 }] },
@@ -147,10 +113,168 @@ export function initNbaTableData() {
     {
       className: 'fila1 top1',
       etapas: [
-        { superior: [{ className: 'noLiga', texto: 'NBL', cols: 2 }] },
         {
           superior: [
-            { claseName: 'nba_denver', texto: 'Denver Nuggets', cols: 2 },
+            { claseName: 'nba_rebels', texto: 'Cleveland Rebels', cols: 2 },
+          ]
+        },
+        { veces: 3, superior: [{ cols: 50 }] },
+        { superior: [{ cols: 10 }] },
+      ]
+    },
+    {
+      className: 'fila2 top2',
+      etapas: [
+        {
+          superior: [
+            { claseName: 'nba_detroit', texto: 'Detroit Falcons', cols: 2 },
+          ]
+        },
+        { veces: 3, superior: [{ cols: 50 }] },
+        { superior: [{ cols: 10 }] },
+      ]
+    },
+    {
+      className: 'nba_knicks top1',
+      classNameInf: 'nba_knicks',
+      etapas: [
+        // { superior: [{ className: 'noLiga', texto: 'BAA', cols: 2, rows: 2 }] },
+        { veces: 3, superior: [{ texto: 'New York Knicks', cols: 14, rows: 2 }] },
+        // { superior: [{ texto: 'New York Knicks', cols: 12, rows: 2 }] },
+        {
+          superior: [
+            { cols: 4 },
+            { texto: '★', cols: 2 },
+            { cols: 2 },
+          ],
+          inferior: [{ texto: 'New York Knicks', cols: 8 }]
+        },
+        {
+          superior: [
+            { cols: 2 },
+            { texto: '★', cols: 2 },
+            { cols: 2 },
+          ],
+          inferior: [{ texto: 'New York Knicks', cols: 6 }]
+        },
+        { veces: 3, superior: [{ texto: 'New York Knicks', cols: 14, rows: 2 }] },
+        { veces: 5, superior: [{ texto: 'New York Knicks', cols: 12, rows: 2 }] },
+        {
+          superior: [
+            { texto: '★◆', cols: 2 },
+            { cols: 2 },
+          ],
+          inferior: [{ texto: 'New York Knicks', cols: 4 }]
+        },
+      ]
+    },
+    {
+      className: 'nba_warriors top2',
+      classNameInf: 'nba_warriors',
+      etapas: [
+        // { superior: [{ className: 'noLiga', texto: 'BAA', cols: 2, rows: 2 }] },
+        {
+          superior: [
+            { texto: '★', cols: 2 },
+            { cols: 6 }
+          ],
+          inferior: [{ texto: 'Philadelphia Warriors', cols: 8 }]
+        },
+        { superior: [{ texto: 'Philadelphia Warriors', cols: 10, rows: 2 }] },
+        {
+          superior: [
+            { cols: 2 },
+            { texto: '★', cols: 2 },
+            { cols: 10 }
+          ],
+          inferior: [{ texto: 'Philadelphia Warriors', cols: 14 }]
+        },
+        // {
+        //   superior: [
+        //     { texto: 'Philadelphia Warriors', cols: 8, rows: 2 },
+        //   ]
+        // },
+        {
+          superior: [
+            {
+              className: 'nba_warriors_chgname',
+              texto: 'San Francisco Warriors', cols: 10, rows: 2
+            },
+          ]
+        },
+        {
+          superior: [
+            { texto: 'San Francisco Warriors', cols: 8, rows: 2 },
+          ]
+        },
+        {
+          superior: [
+            { cols: 6 },
+            { texto: '★', cols: 2 },
+            { cols: 4 }
+          ],
+          inferior: [
+            { className: 'nba_warriors_chgname', texto: 'Golden State Warriors (Oakland)', cols: 12 },
+          ]
+        },
+        {
+          superior: [
+            { texto: 'Golden State Warriors (Oakland)', cols: 16, rows: 2 }
+          ]
+        },
+        {
+          veces: 4,
+          superior: [
+            { texto: 'Golden State Warriors (Oakland)', cols: 14, rows: 2 }
+          ]
+        },
+        {
+          superior: [
+            { cols: 2 },
+            { texto: '★', cols: 2 },
+            { cols: 2 },
+            { texto: '★', cols: 2 },
+            { texto: '★', cols: 2 },
+            { cols: 2 },
+          ],
+          inferior: [
+            { texto: 'Golden State Warriors (Oakland)', cols: 12 },
+          ]
+        },
+        {
+          superior: [
+            { className: 'nba_warriors_chgname', cols: 4 },
+            { texto: '★', cols: 2 },
+            { cols: 10 }
+          ],
+          inferior: [
+            {
+              className: 'nba_warriors_chgname',
+              texto: 'Golden State Warriors (San Francisco)',
+              cols: 16
+            },
+          ]
+        },
+      ]
+    },
+    {
+      className: 'fila1 top1',
+      etapas: [
+        {
+          superior: [
+            { claseName: 'nba_pitt', texto: 'Pittsburgh Ironmen', cols: 2 },
+          ]
+        },
+        { veces: 3, superior: [{ cols: 50 }] },
+        { superior: [{ cols: 10 }] },
+      ]
+    },
+    {
+      className: 'fila2 top2',
+      etapas: [
+        {
+          superior: [
+            { claseName: 'nba_steam', texto: 'Providence Steamrollers', cols: 6 },
           ]
         },
         { veces: 3, superior: [{ cols: 50 }] },
@@ -158,12 +282,68 @@ export function initNbaTableData() {
       ]
     },
     {
+      className: 'fila1 top1',
+      etapas: [
+        {
+          superior: [
+            { claseName: 'nba_bombers', texto: 'St. Louis Bombers', cols: 8 },
+          ]
+        },
+        { veces: 3, superior: [{ cols: 50 }] },
+        { superior: [{ cols: 4 }] },
+      ]
+    },
+    {
+      className: 'fila2 top2',
+      etapas: [
+        {
+          superior: [
+            { claseName: 'nba_huskies', texto: 'Toronto Huskies', cols: 2 },
+          ]
+        },
+        { veces: 3, superior: [{ cols: 50 }] },
+        { superior: [{ cols: 10 }] },
+      ]
+    },
+    {
+      className: 'fila1 top1',
+      etapas: [
+        {
+          superior: [
+            { claseName: 'nba_capitals', texto: 'Washington Capitals', cols: 9 },
+          ]
+        },
+        { superior: [{ cols: 51 }] },
+        { veces: 2, superior: [{ cols: 50 }] },
+        { superior: [{ cols: 2 }] },
+      ]
+    },
+    {
+      className: 'fila1 top1',
+      classNameInf: 'nba_bullets',
+      etapas: [
+        { superior: [{ claseName: 'noLiga', texto: 'ABL', cols: 2, rows: 2 }] },
+        {
+          superior: [
+            { className: 'nba_bullets', texto: '★', cols: 2 },
+            { className: 'nba_bullets', cols: 11 }
+          ],
+          inferior: [
+            { texto: 'Baltimore Bullets', cols: 13 },
+          ]
+        },
+        { superior: [{ cols: 51, rows: 2 }] },
+        { superior: [{ cols: 50, rows: 2 }] },
+        { superior: [{ cols: 46, rows: 2 }] },
+      ]
+    },
+    {
       className: 'nba_pistons top2',
       classNameInf: 'nba_pistons',
       etapas: [
-        { superior: [{ className: 'noLiga', texto: 'NBL', rows: 2 }] },
-        { superior: [{ className: 'noLiga noLiga_chgname', texto: 'BAA', rows: 2 }] },
-        { veces: 2, superior: [{ texto: 'Fort Wayne Pistons', cols: 8, rows: 2 }] },
+        { superior: [{ className: 'noLiga', texto: 'NBL', cols: 4, rows: 2 }] },
+        { superior: [{ texto: 'Fort Wayne Pistons', cols: 10, rows: 2 }] },
+        { superior: [{ texto: 'Fort Wayne Pistons', cols: 8, rows: 2 }] },
         {
           superior: [
             {
@@ -200,29 +380,40 @@ export function initNbaTableData() {
     {
       className: 'fila1 top1',
       etapas: [
-        { superior: [{ cols: 2 }] },
         {
           superior: [
-            { claseName: 'nba_olympians', texto: 'Indianapolis Olympians', cols: 8 },
+            { claseName: 'noLiga', texto: 'Indianapolis Kautskys (NBL)', cols: 4 },
           ]
         },
-        { veces: 2, superior: [{ cols: 50 }] },
-        { superior: [{ cols: 48 }] },
+        {
+          superior: [
+            { claseName: 'nba_jets', texto: 'Indianapolis Jets', cols: 2 },
+          ]
+        },
+        { veces: 3, superior: [{ cols: 50 }] },
+        { superior: [{ cols: 6 }] },
       ]
     },
     {
       className: 'nba_lakers top2',
       classNameInf: 'nba_lakers',
       etapas: [
-        { superior: [{ className: 'noLiga', texto: 'NBL', rows: 2 }] },
-        { superior: [{ className: 'noLiga noLiga_chgname', texto: 'BAA', rows: 2 }] },
+        {
+          superior: [{ className: 'noLiga', texto: 'Detroit Gems', }],
+          inferior: [{ className: 'noLiga', texto: 'NBL', cols: 4 }]
+        },
+        { superior: [{ className: 'noLiga noLiga_chgname', cols: 3 }] },
+        // {
+        //   superior: [{ className: 'noLiga', texto: 'NBL', cols: 4, rows: 2 }]
+        // },
         {
           superior: [
+            { texto: '★', cols: 2 },
             { texto: '★', cols: 2 },
             { cols: 2 },
             { texto: '★', cols: 2 },
           ],
-          inferior: [{ texto: 'Minneapolis Lakers', cols: 6 }]
+          inferior: [{ texto: 'Minneapolis Lakers', cols: 8 }]
         },
         {
           superior: [
@@ -318,138 +509,18 @@ export function initNbaTableData() {
       ]
     },
     {
-      className: 'nba_knicks top1',
-      classNameInf: 'nba_knicks',
+      className: 'nba_kings top1',
+      classNameInf: 'nba_kings',
       etapas: [
-        { superior: [{ className: 'noLiga', texto: 'BAA', cols: 2, rows: 2 }] },
-        { veces: 3, superior: [{ texto: 'New York Knicks', cols: 12, rows: 2 }] },
+        { superior: [{ className: 'noLiga', texto: 'NBL', rows: 2, cols: 4 }] },
         {
           superior: [
             { cols: 4 },
             { texto: '★', cols: 2 },
-            { cols: 2 },
-          ],
-          inferior: [{ texto: 'New York Knicks', cols: 8 }]
-        },
-        {
-          superior: [
-            { cols: 2 },
-            { texto: '★', cols: 2 },
-            { cols: 2 },
-          ],
-          inferior: [{ texto: 'New York Knicks', cols: 6 }]
-        },
-        { veces: 3, superior: [{ texto: 'New York Knicks', cols: 14, rows: 2 }] },
-        { veces: 5, superior: [{ texto: 'New York Knicks', cols: 12, rows: 2 }] },
-        {
-          superior: [
-            { texto: '★◆', cols: 2 },
-            { cols: 2 },
-          ],
-          inferior: [{ texto: 'New York Knicks', cols: 4 }]
-        },
-      ]
-    },
-    {
-      className: 'nba_warriors top2',
-      classNameInf: 'nba_warriors',
-      etapas: [
-        { superior: [{ className: 'noLiga', texto: 'BAA', cols: 2, rows: 2 }] },
-        {
-          superior: [
-            { texto: 'Philadelphia Warriors', cols: 10, rows: 2 },
-          ]
-        },
-        {
-          superior: [
-            { cols: 2 },
-            { texto: '★', cols: 2 },
-            { cols: 4 }
-          ],
-          inferior: [{ texto: 'Philadelphia Warriors', cols: 8 }]
-        },
-        {
-          superior: [
-            { texto: 'Philadelphia Warriors', cols: 8, rows: 2 },
-          ]
-        },
-        {
-          superior: [
-            {
-              className: 'nba_warriors_chgname',
-              texto: 'San Francisco Warriors', cols: 10, rows: 2
-            },
-          ]
-        },
-        {
-          superior: [
-            { texto: 'San Francisco Warriors', cols: 8, rows: 2 },
-          ]
-        },
-        {
-          superior: [
-            { cols: 6 },
-            { texto: '★', cols: 2 },
             { cols: 4 }
           ],
           inferior: [
-            { className: 'nba_warriors_chgname', texto: 'Golden State Warriors (Oakland)', cols: 12 },
-          ]
-        },
-        {
-          superior: [
-            { texto: 'Golden State Warriors (Oakland)', cols: 16, rows: 2 }
-          ]
-        },
-        {
-          veces: 4,
-          superior: [
-            { texto: 'Golden State Warriors (Oakland)', cols: 14, rows: 2 }
-          ]
-        },
-        {
-          superior: [
-            { cols: 2 },
-            { texto: '★', cols: 2 },
-            { cols: 2 },
-            { texto: '★', cols: 2 },
-            { texto: '★', cols: 2 },
-            { cols: 2 },
-          ],
-          inferior: [
-            { texto: 'Golden State Warriors (Oakland)', cols: 12 },
-          ]
-        },
-        {
-          superior: [
-            { className: 'nba_warriors_chgname', cols: 4 },
-            { texto: '★', cols: 2 },
-            { cols: 10 }
-          ],
-          inferior: [
-            {
-              className: 'nba_warriors_chgname',
-              texto: 'Golden State Warriors (San Francisco)',
-              cols: 16
-            },
-          ]
-        },
-      ]
-    },
-    {
-      className: 'nba_kings top1',
-      classNameInf: 'nba_kings',
-      etapas: [
-        { superior: [{ className: 'noLiga', texto: 'NBL', rows: 2 }] },
-        { superior: [{ className: 'noLiga noLiga_chgname', texto: 'BAA', rows: 2 }] },
-        {
-          superior: [
-            { cols: 2 },
-            { texto: '★', cols: 2 },
-            { cols: 4 }
-          ],
-          inferior: [
-            { texto: 'Rochester Royals', cols: 8 }
+            { texto: 'Rochester Royals', cols: 10 }
           ]
         },
         { superior: [{ texto: 'Rochester Royals', cols: 8, rows: 2 }] },
@@ -487,46 +558,86 @@ export function initNbaTableData() {
         { veces: 6, superior: [{ texto: 'Sacramento Kings', cols: 12, rows: 2 }] },
       ]
     },
+
     {
       className: 'fila2 top2',
       etapas: [
-        { superior: [{ className: 'noLiga', texto: 'NBL', cols: 2 }] },
+        { superior: [{ claseName: 'noLiga', texto: 'NBL', cols: 6 }] },
         {
           superior: [
-            { claseName: 'nba_sheboygan', texto: 'Sheboygan Redskins', cols: 2 },
+            { claseName: 'nba_anderson', texto: 'Anderson Packers', cols: 2 },
           ]
         },
-        { superior: [{ className: 'noLiga', texto: 'NPBL', cols: 2 }] },
+        { superior: [{ claseName: 'noLiga', texto: 'NPBL', cols: 2 }] },
         { veces: 3, superior: [{ cols: 50 }] },
         { superior: [{ cols: 2 }] },
       ]
     },
     {
       className: 'fila1 top1',
+      classNameInf: 'fila1',
       etapas: [
-        { superior: [{ className: 'noLiga', texto: 'BAA', cols: 2 }] },
+        {
+          superior: [{ className: 'fila1', cols: 4, rows: 2 }]
+        },
+        { superior: [{ className: 'noLiga', texto: 'NBL', cols: 2, rows: 2 }] },
         {
           superior: [
-            { claseName: 'nba_bombers', texto: 'St. Louis Bombers', cols: 2 },
+            { claseName: 'nba_denver', texto: 'Denver Nuggets', cols: 2, rows: 2 },
+          ]
+        },
+        {
+          superior: [{ claseName: 'noLiga', texto: 'Denver Refiners' }],
+          inferior: [{ claseName: 'noLiga', texto: 'NPBL', cols: 2 }]
+        },
+        {
+          superior: [{ claseName: 'noLiga noLiga_chgname', texto: 'Evansville Agogans' }],
+        },
+        { veces: 3, superior: [{ cols: 50, rows: 2 }] },
+        { superior: [{ cols: 3, rows: 2 }] },
+      ]
+    },
+    {
+      className: 'fila2 top2',
+      etapas: [
+        { superior: [{ cols: 6 }] },
+        {
+          superior: [
+            { claseName: 'nba_olympians', texto: 'Indianapolis Olympians', cols: 8 },
           ]
         },
         { veces: 3, superior: [{ cols: 50 }] },
-        { superior: [{ cols: 4 }] },
+      ]
+    },
+
+    {
+      className: 'fila1 top1',
+      etapas: [
+        { superior: [{ className: 'noLiga', texto: 'NBL', cols: 6 }] },
+        {
+          superior: [
+            { claseName: 'nba_sheboygan', texto: 'Sheboygan Red Skins', cols: 2 },
+          ]
+        },
+        { superior: [{ className: 'noLiga', texto: 'NPBL', cols: 2 }] },
+        { superior: [{ className: 'noLiga noLiga_chgname', texto: 'Ind.', cols: 2 }] },
+        { veces: 3, superior: [{ cols: 50 }] },
+        { superior: [{ cols: 2 }] },
       ]
     },
     {
       className: 'nba_76ers top2',
       classNameInf: 'nba_76ers',
       etapas: [
-        { superior: [{ className: 'noLiga', texto: 'NBL', cols: 2, rows: 2 }] },
-        { superior: [{ texto: 'Syracuse Nationals', cols: 8, rows: 2 }] },
+        { superior: [{ className: 'noLiga', texto: 'NBL', cols: 6, rows: 2 }] },
+        { superior: [{ texto: 'Syracuse Nationals', cols: 6, rows: 2 }] },
         {
           superior: [
-            { cols: 2 },
+            { cols: 4 },
             { texto: '★', cols: 2 },
             { cols: 4 }
           ],
-          inferior: [{ texto: 'Syracuse Nationals', cols: 8 }]
+          inferior: [{ texto: 'Syracuse Nationals', cols: 10 }]
         },
         { superior: [{ texto: 'Syracuse Nationals', cols: 12, rows: 2 }] },
         {
@@ -556,7 +667,12 @@ export function initNbaTableData() {
       className: 'nba_hawks top1',
       classNameInf: 'nba_hawks',
       etapas: [
-        { superior: [{ className: 'noLiga', texto: 'NBL', cols: 2, rows: 2 }] },
+        {
+          superior: [{ className: 'noLiga', texto: 'Buffalo Bisons', }],
+          inferior: [{ className: 'noLiga', cols: 2 }]
+        },
+        { superior: [{ className: 'noLiga noLiga_chgname', }] },
+        { superior: [{ className: 'noLiga', texto: 'NBL', cols: 4, rows: 2 }] },
         {
           superior: [
             { texto: 'Tri-Cities Blackhawks', cols: 4, rows: 2 },
@@ -589,21 +705,7 @@ export function initNbaTableData() {
     {
       className: 'fila2 top2',
       etapas: [
-        { superior: [{ className: 'noLiga', texto: 'BAA', cols: 2 }] },
-        {
-          superior: [
-            { claseName: 'nba_capitals', texto: 'Washington Capitals', cols: 3 },
-          ]
-        },
-        { superior: [{ cols: 51 }] },
-        { veces: 2, superior: [{ cols: 50 }] },
-        { superior: [{ cols: 2 }] },
-      ]
-    },
-    {
-      className: 'fila1 top1',
-      etapas: [
-        { superior: [{ className: 'noLiga', texto: 'NBL', cols: 2 }] },
+        { superior: [{ className: 'noLiga', texto: 'NBL', cols: 6 }] },
         {
           superior: [
             { claseName: 'nba_waterloo', texto: 'Waterloo Hawks', cols: 2 },
@@ -619,7 +721,7 @@ export function initNbaTableData() {
       className: 'nba_bullets',
       etapas: [
         {
-          superior: [{ className: 'fila2', cols: 26, rows: 2 }]
+          superior: [{ className: 'fila2', cols: 30, rows: 2 }]
         },
         {
           superior: [
@@ -669,7 +771,7 @@ export function initNbaTableData() {
       className: 'nba_chicago top1',
       classNameInf: 'nba_chicago',
       etapas: [
-        { superior: [{ className: 'fila1', cols: 36, rows: 2 }] },
+        { superior: [{ className: 'fila1', cols: 40, rows: 2 }] },
         { veces: 4, superior: [{ texto: 'Chicago Bulls', cols: 12, rows: 2 }] },
         {
           superior: [
@@ -697,7 +799,7 @@ export function initNbaTableData() {
       className: 'nba_seattle top2',
       classNameInf: 'nba_seattle',
       etapas: [
-        { superior: [{ className: 'fila2', cols: 38, rows: 2 }] },
+        { superior: [{ className: 'fila2', cols: 42, rows: 2 }] },
         {
           superior: [
             { texto: 'Seattle Supersonics', cols: 18, rows: 2 },
@@ -754,7 +856,7 @@ export function initNbaTableData() {
       className: 'nba_rockets top1',
       classNameInf: 'nba_rockets',
       etapas: [
-        { superior: [{ className: 'fila1', cols: 38, rows: 2 }] },
+        { superior: [{ className: 'fila1', cols: 42, rows: 2 }] },
         { superior: [{ texto: 'San Diego Rockets', cols: 8, rows: 2 }] },
         {
           superior: [
@@ -784,7 +886,7 @@ export function initNbaTableData() {
       className: 'nba_milwaukee top2',
       classNameInf: 'nba_milwaukee',
       etapas: [
-        { superior: [{ className: 'fila2', cols: 40, rows: 2 }] },
+        { superior: [{ className: 'fila2', cols: 44, rows: 2 }] },
         {
           superior: [
             { cols: 4 },
@@ -822,7 +924,7 @@ export function initNbaTableData() {
     {
       className: 'nba_phoenix top1',
       etapas: [
-        { superior: [{ className: 'fila1', cols: 40 }] },
+        { superior: [{ className: 'fila1', cols: 44 }] },
         { veces: 11, superior: [{ texto: 'Phoenix Suns', cols: 10 }] },
         { superior: [{ texto: 'Phoenix Suns', cols: 8 }] },
       ]
@@ -831,7 +933,7 @@ export function initNbaTableData() {
       className: 'nba_buffalo top2',
       classNameInf: 'nba_boston',
       etapas: [
-        { superior: [{ className: 'fila2', cols: 44, rows: 2 }] },
+        { superior: [{ className: 'fila2', cols: 48, rows: 2 }] },
         { veces: 2, superior: [{ texto: 'Buffalo Braves', cols: 8, rows: 2 }] },
         {
           superior: [
@@ -899,7 +1001,7 @@ export function initNbaTableData() {
       className: 'nba_cleveland top1',
       classNameInf: 'nba_cleveland',
       etapas: [
-        { superior: [{ className: 'fila1', cols: 44, rows: 2 }] },
+        { superior: [{ className: 'fila1', cols: 48, rows: 2 }] },
         { superior: [{ texto: 'Cleveland Cavaliers', cols: 16, rows: 2 }] },
         { veces: 5, superior: [{ texto: 'Cleveland Cavaliers', cols: 14, rows: 2 }] },
         {
@@ -918,7 +1020,7 @@ export function initNbaTableData() {
       className: 'nba_portland top2',
       classNameInf: 'nba_portland',
       etapas: [
-        { superior: [{ className: 'fila2', cols: 44, rows: 2 }] },
+        { superior: [{ className: 'fila2', cols: 48, rows: 2 }] },
         {
           superior: [
             { texto: 'Portland Trail Blazers', cols: 10, rows: 2 },
@@ -945,7 +1047,8 @@ export function initNbaTableData() {
     {
       className: 'nba_jazz top1',
       etapas: [
-        { superior: [{ className: 'fila1', cols: 52 }] },
+        { superior: [{ className: 'fila1', cols: 50 }] },
+        { superior: [{ className: 'fila1', cols: 6 }] },
         { superior: [{ texto: 'New Orleans Jazz', cols: 10 }] },
         {
           superior: [
@@ -960,7 +1063,7 @@ export function initNbaTableData() {
       className: 'nba_denver top2',
       classNameInf: 'nba_denver',
       etapas: [
-        { superior: [{ className: 'fila2', cols: 38, rows: 2 }] },
+        { superior: [{ className: 'fila2', cols: 42, rows: 2 }] },
         {
           superior: [
             { className: 'noLiga', texto: 'Denver Rockets', cols: 16, rows: 2 },
@@ -988,7 +1091,7 @@ export function initNbaTableData() {
     {
       className: 'nba_indiana top1',
       etapas: [
-        { superior: [{ className: 'fila1', cols: 38 }] },
+        { superior: [{ className: 'fila1', cols: 42 }] },
         {
           superior: [
             { className: 'noLiga', texto: '(ABA)', cols: 18 },
@@ -1002,7 +1105,7 @@ export function initNbaTableData() {
     {
       className: 'nba_nets top2',
       etapas: [
-        { superior: [{ className: 'fila2', cols: 38 }] },
+        { superior: [{ className: 'fila2', cols: 42 }] },
         {
           superior: [
             { className: 'noLiga', texto: 'New Jersey Americans', cols: 2 },
@@ -1036,7 +1139,7 @@ export function initNbaTableData() {
       className: 'nba_spurs top1',
       classNameInf: 'nba_spurs',
       etapas: [
-        { superior: [{ className: 'fila1', cols: 38, rows: 2 }] },
+        { superior: [{ className: 'fila1', cols: 42, rows: 2 }] },
         {
           superior: [
             { className: 'noLiga', texto: 'Dallas Chaparrals', cols: 6, rows: 2 },
@@ -1117,7 +1220,7 @@ export function initNbaTableData() {
       classNameInf: 'nba_dallas',
       etapas: [
         { superior: [{ className: 'fila2', cols: 50, rows: 2 }] },
-        { superior: [{ className: 'fila2', cols: 14, rows: 2 }] },
+        { superior: [{ className: 'fila2', cols: 18, rows: 2 }] },
         { veces: 4, superior: [{ texto: 'Dallas Mavericks', cols: 12, rows: 2 }] },
         { superior: [{ texto: 'Dallas Mavericks', cols: 10, rows: 2 }] },
         {
@@ -1139,7 +1242,7 @@ export function initNbaTableData() {
       className: 'nba_hornets top1',
       etapas: [
         { superior: [{ className: 'fila1', cols: 50 }] },
-        { superior: [{ className: 'fila1', cols: 32 }] },
+        { superior: [{ className: 'fila1', cols: 36 }] },
         { superior: [{ texto: 'Charlotte Hornets', cols: 14 }] },
         { superior: [{ texto: 'Charlotte Hornets', cols: 12 }] },
         {
@@ -1185,7 +1288,7 @@ export function initNbaTableData() {
       classNameInf: 'nba_miami',
       etapas: [
         { superior: [{ className: 'fila2', cols: 50, rows: 2 }] },
-        { superior: [{ className: 'fila2', cols: 32, rows: 2 }] },
+        { superior: [{ className: 'fila2', cols: 36, rows: 2 }] },
         { veces: 2, superior: [{ texto: 'Miami Heat', cols: 10, rows: 2 }] },
         { superior: [{ texto: 'Miami Heat', cols: 8, rows: 2 }] },
         {
@@ -1218,7 +1321,7 @@ export function initNbaTableData() {
       className: 'nba_wolves top1',
       etapas: [
         { superior: [{ className: 'fila1', cols: 50 }] },
-        { superior: [{ className: 'fila1', cols: 34 }] },
+        { superior: [{ className: 'fila1', cols: 38 }] },
         { veces: 4, superior: [{ texto: 'Minnesota Timberwolves', cols: 16 }] },
         { superior: [{ texto: 'Minnesota Timberwolves', cols: 10 }] },
       ]
@@ -1227,7 +1330,7 @@ export function initNbaTableData() {
       className: 'nba_orlando top2',
       etapas: [
         { superior: [{ className: 'fila2', cols: 50 }] },
-        { superior: [{ className: 'fila2', cols: 34 }] },
+        { superior: [{ className: 'fila2', cols: 38 }] },
         { veces: 5, superior: [{ texto: 'Orlando Magic', cols: 12 }] },
         { superior: [{ texto: 'Orlando Magic', cols: 8 }] },
         { superior: [{ texto: 'Orlando Magic', cols: 6 }] },
@@ -1238,7 +1341,7 @@ export function initNbaTableData() {
       classNameInf: 'nba_toronto',
       etapas: [
         { superior: [{ className: 'fila1', cols: 50, rows: 2 }] },
-        { superior: [{ className: 'fila1', cols: 44, rows: 2 }] },
+        { superior: [{ className: 'fila1', cols: 48, rows: 2 }] },
         { superior: [{ texto: 'Toronto Raptors', cols: 12, rows: 2 }] },
         { veces: 3, superior: [{ texto: 'Toronto Raptors', cols: 10, rows: 2 }] },
         {
@@ -1258,7 +1361,7 @@ export function initNbaTableData() {
       className: 'nba_grizzlies top2',
       etapas: [
         { superior: [{ className: 'fila2', cols: 50 }] },
-        { superior: [{ className: 'fila2', cols: 44 }] },
+        { superior: [{ className: 'fila2', cols: 48 }] },
         { superior: [{ texto: 'Vancouver Grizzlies', cols: 12 }] },
         {
           superior: [{
@@ -1275,7 +1378,7 @@ export function initNbaTableData() {
       className: 'nba_bobcats top1',
       etapas: [
         { veces: 2, superior: [{ className: 'fila1', cols: 50 }] },
-        { superior: [{ className: 'fila1', cols: 12 }] },
+        { superior: [{ className: 'fila1', cols: 16 }] },
         { veces: 2, superior: [{ texto: 'Charlotte Bobcats', cols: 10 }] },
         {
           superior: [{

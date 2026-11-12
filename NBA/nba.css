@@ -173,6 +173,11 @@ body {
 }
 
 .nba_olympians {
+    background-color: firebrick;
+    color: darkorange;
+}
+
+.nba_jets {
     background-color: gainsboro;
     color: orangered;
 }
@@ -337,4 +342,29 @@ body {
 .nba_pelicans {
     background-color: #85714D;
     color: #0C2340;
+}
+
+.nba_rebels {
+    background-color: salmon;
+    color: brown;
+}
+
+.nba_pitt {
+    background-color: yellow;
+    color: black;
+}
+
+.nba_huskies {
+    background-color: paleturquoise;
+    color: darkcyan;
+}
+
+.nba_detroit {
+    background-color: rosybrown;
+    color: darkcyan
+}
+
+.nba_steam {
+    background-color: darkorange;
+    color: black;
 }
