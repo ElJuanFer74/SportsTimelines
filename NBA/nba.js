@@ -278,7 +278,7 @@ export function initNbaTableData() {
           ]
         },
         { veces: 3, superior: [{ cols: 50 }] },
-        { superior: [{ cols: 4 }] },
+        { superior: [{ cols: 6 }] },
       ]
     },
     {
@@ -1071,7 +1071,7 @@ export function initNbaTableData() {
         },
         {
           superior: [
-            { className: 'noLiga noLiga_chgname', texto: '(ABA)', cols: 2, rows: 2 },
+            { className: 'noLiga noLiga_chgname', texto: 'ABA', cols: 2, rows: 2 },
           ]
         },
         { veces: 2, superior: [{ texto: 'Denver Nuggets', cols: 14, rows: 2 }] },
@@ -1094,7 +1094,7 @@ export function initNbaTableData() {
         { superior: [{ className: 'fila1', cols: 42 }] },
         {
           superior: [
-            { className: 'noLiga', texto: '(ABA)', cols: 18 },
+            { className: 'noLiga', texto: 'ABA', cols: 18 },
           ]
         },
         { veces: 6, superior: [{ texto: 'Indiana Pacers', cols: 14 },] },
@@ -1113,7 +1113,7 @@ export function initNbaTableData() {
         },
         {
           superior: [
-            { className: 'noLiga noLiga_chgname', texto: '(ABA)', cols: 16 },
+            { className: 'noLiga noLiga_chgname', texto: 'ABA', cols: 16 },
           ]
         },
         { superior: [{ texto: 'New York Nets', cols: 2 }] },
@@ -1165,7 +1165,7 @@ export function initNbaTableData() {
         },
         {
           superior: [
-            { className: 'noLiga noLiga_chgname', texto: '(ABA)', cols: 6, rows: 2 },
+            { className: 'noLiga noLiga_chgname', texto: 'ABA', cols: 6, rows: 2 },
           ]
         },
         { superior: [{ texto: 'San Antonio Spurs', cols: 14, rows: 2 }] },

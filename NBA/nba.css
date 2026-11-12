@@ -9,6 +9,23 @@ body {
     align-items: center;
 }
 
+.caja_top {
+    background-color: cadetblue;
+    border-bottom: 0.2rem solid gainsboro;
+}
+
+.caja_bottom {
+    background-color: cadetblue;
+    border-top: 0.2rem solid gainsboro;
+}
+
+.zona_merge {
+    border-left: 0.2rem dotted gainsboro;
+    color: gainsboro;
+    text-align: left;
+    padding-left: 1em;
+}
+
 /* Tablas */
 .table_timeline {
     border: none;

@@ -84,18 +84,19 @@ export function createYearHeaderRow(ranges = []) {
   if (!table) {
     // table = document.getElementById("table_timeline");
     // if (!table) {
-      throw new Error('No se encontró la tabla con id "table_timeline".');
+    throw new Error('No se encontró la tabla con id "table_timeline".');
     // }
   }
 
   const thead = table.tHead || table.createTHead();
   const tfoot = table.tFoot || table.createTFoot();
 
-  thead.innerHTML = "";
+  // No se sobrescribe el thead: se agrega la fila al final.
   // tfoot.innerHTML = "";
 
   thead.appendChild(row);
-  tfoot.appendChild(row.cloneNode(true));
+  const rowClone = row.cloneNode(true);
+  tfoot.insertBefore(rowClone, tfoot.firstChild);
 
   // Fila auxiliar de ajuste en el pie de tabla.
   let totalCols = 0;
