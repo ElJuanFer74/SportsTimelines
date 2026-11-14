@@ -26,6 +26,11 @@ body {
     padding-left: 1em;
 }
 
+.linea_div {
+    text-align: left;
+    border-left: 0.2rem dotted black;
+}
+
 /* Tablas */
 .table_timeline {
     border: none;
@@ -52,8 +57,12 @@ body {
     white-space: wrap;
 }
 
-.ajustes td {
-    width: 45px;
+.cont-tabla {
+    overflow-x: auto;
+    border: black 0.2em solid;
+    /* max-width: 95%; */
+    height: 64vh;
+    margin: 1em;
 }
 
 /* Colores */

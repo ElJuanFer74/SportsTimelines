@@ -106,8 +106,9 @@ export function initNbaTableData() {
             { claseName: 'nba_stags', texto: 'Chicago Stags', cols: 8 },
           ]
         },
-        { veces: 3, superior: [{ cols: 50 }] },
-        { superior: [{ cols: 4 }] },
+        { superior: [{ cols: 52 }] },
+        { superior: [{ className: 'linea_div', cols: 2 }] },
+        { veces: 2, superior: [{ cols: 50 }] },
       ]
     },
     {
@@ -118,8 +119,9 @@ export function initNbaTableData() {
             { claseName: 'nba_rebels', texto: 'Cleveland Rebels', cols: 2 },
           ]
         },
-        { veces: 3, superior: [{ cols: 50 }] },
-        { superior: [{ cols: 10 }] },
+        { superior: [{ cols: 4 }] },
+        { veces: 2, superior: [{ className: 'linea_div', cols: 54 }] },
+        { superior: [{ cols: 48 }] },
       ]
     },
     {
@@ -130,8 +132,9 @@ export function initNbaTableData() {
             { claseName: 'nba_detroit', texto: 'Detroit Falcons', cols: 2 },
           ]
         },
-        { veces: 3, superior: [{ cols: 50 }] },
-        { superior: [{ cols: 10 }] },
+        { superior: [{ cols: 4 }] },
+        { veces: 2, superior: [{ className: 'linea_div', cols: 54 }] },
+        { superior: [{ cols: 48 }] },
       ]
     },
     {
@@ -265,8 +268,9 @@ export function initNbaTableData() {
             { claseName: 'nba_pitt', texto: 'Pittsburgh Ironmen', cols: 2 },
           ]
         },
-        { veces: 3, superior: [{ cols: 50 }] },
-        { superior: [{ cols: 10 }] },
+        { superior: [{ cols: 4 }] },
+        { veces: 2, superior: [{ className: 'linea_div', cols: 54 }] },
+        { superior: [{ cols: 48 }] },
       ]
     },
     {
@@ -277,8 +281,8 @@ export function initNbaTableData() {
             { claseName: 'nba_steam', texto: 'Providence Steamrollers', cols: 6 },
           ]
         },
-        { veces: 3, superior: [{ cols: 50 }] },
-        { superior: [{ cols: 6 }] },
+        { veces: 2, superior: [{ className: 'linea_div', cols: 54 }] },
+        { superior: [{ cols: 48 }] },
       ]
     },
     {
@@ -289,8 +293,9 @@ export function initNbaTableData() {
             { claseName: 'nba_bombers', texto: 'St. Louis Bombers', cols: 8 },
           ]
         },
-        { veces: 3, superior: [{ cols: 50 }] },
-        { superior: [{ cols: 4 }] },
+        { superior: [{ cols: 52 }] },
+        { superior: [{ className: 'linea_div', cols: 50 }] },
+        { superior: [{ cols: 52 }] },
       ]
     },
     {
@@ -301,8 +306,9 @@ export function initNbaTableData() {
             { claseName: 'nba_huskies', texto: 'Toronto Huskies', cols: 2 },
           ]
         },
-        { veces: 3, superior: [{ cols: 50 }] },
-        { superior: [{ cols: 10 }] },
+        { superior: [{ cols: 4 }] },
+        { veces: 2, superior: [{ className: 'linea_div', cols: 54 }] },
+        { superior: [{ cols: 48 }] },
       ]
     },
     {
@@ -314,7 +320,8 @@ export function initNbaTableData() {
           ]
         },
         { superior: [{ cols: 51 }] },
-        { veces: 2, superior: [{ cols: 50 }] },
+        { superior: [{ className: 'linea_div', cols: 50 }] },
+        { superior: [{ cols: 50 }] },
         { superior: [{ cols: 2 }] },
       ]
     },
@@ -332,9 +339,9 @@ export function initNbaTableData() {
             { texto: 'Baltimore Bullets', cols: 13 },
           ]
         },
-        { superior: [{ cols: 51, rows: 2 }] },
-        { superior: [{ cols: 50, rows: 2 }] },
-        { superior: [{ cols: 46, rows: 2 }] },
+        { superior: [{ cols: 45, rows: 2 }] },
+        { superior: [{ className: 'linea_div', cols: 50, rows: 2 }] },
+        { superior: [{ cols: 52, rows: 2 }] },
       ]
     },
     {
@@ -390,8 +397,8 @@ export function initNbaTableData() {
             { claseName: 'nba_jets', texto: 'Indianapolis Jets', cols: 2 },
           ]
         },
-        { veces: 3, superior: [{ cols: 50 }] },
-        { superior: [{ cols: 6 }] },
+        { veces: 2, superior: [{ className: 'linea_div', cols: 54 }] },
+        { superior: [{ cols: 48 }] },
       ]
     },
     {
@@ -569,7 +576,9 @@ export function initNbaTableData() {
           ]
         },
         { superior: [{ claseName: 'noLiga', texto: 'NPBL', cols: 2 }] },
-        { veces: 3, superior: [{ cols: 50 }] },
+        { superior: [{ cols: 50 }] },
+        { superior: [{ className: 'linea_div', cols: 50 }] },
+        { superior: [{ cols: 50 }] },
         { superior: [{ cols: 2 }] },
       ]
     },
@@ -593,8 +602,9 @@ export function initNbaTableData() {
         {
           superior: [{ claseName: 'noLiga noLiga_chgname', texto: 'Evansville Agogans' }],
         },
-        { veces: 3, superior: [{ cols: 50, rows: 2 }] },
-        { superior: [{ cols: 3, rows: 2 }] },
+        { superior: [{ cols: 50, rows: 2 }] },
+        { superior: [{ className: 'linea_div', cols: 50, rows: 2 }] },
+        { superior: [{ cols: 52, rows: 2 }] },
       ]
     },
     {
@@ -606,7 +616,9 @@ export function initNbaTableData() {
             { claseName: 'nba_olympians', texto: 'Indianapolis Olympians', cols: 8 },
           ]
         },
-        { veces: 3, superior: [{ cols: 50 }] },
+        { superior: [{ cols: 46 }] },
+        { superior: [{ className: 'linea_div', cols: 50 }] },
+        { superior: [{ cols: 54 }] },
       ]
     },
 
@@ -621,8 +633,9 @@ export function initNbaTableData() {
         },
         { superior: [{ className: 'noLiga', texto: 'NPBL', cols: 2 }] },
         { superior: [{ className: 'noLiga noLiga_chgname', texto: 'Ind.', cols: 2 }] },
-        { veces: 3, superior: [{ cols: 50 }] },
-        { superior: [{ cols: 2 }] },
+        { superior: [{ cols: 48 }] },
+        { superior: [{ className: 'linea_div', cols: 50 }] },
+        { superior: [{ cols: 52 }] },
       ]
     },
     {
@@ -712,16 +725,21 @@ export function initNbaTableData() {
           ]
         },
         { superior: [{ className: 'noLiga', texto: 'NPBL', cols: 2 }] },
-        { veces: 3, superior: [{ cols: 50 }] },
+        { superior: [{ cols: 50 }] },
+        { superior: [{ className: 'linea_div', cols: 50 }] },
+        { superior: [{ cols: 50 }] },
         { superior: [{ cols: 2 }] },
       ]
     },
     {
-      className: 'nba_bullets top2',
+      className: 'nba_bullets top1',
       className: 'nba_bullets',
       etapas: [
         {
-          superior: [{ className: 'fila2', cols: 30, rows: 2 }]
+          superior: [{ className: 'fila1', cols: 6, rows: 2 }]
+        },
+        {
+          superior: [{ className: 'fila1 linea_div', cols: 24, rows: 2 }]
         },
         {
           superior: [
@@ -768,10 +786,11 @@ export function initNbaTableData() {
       ]
     },
     {
-      className: 'nba_chicago top1',
+      className: 'nba_chicago top2',
       classNameInf: 'nba_chicago',
       etapas: [
-        { superior: [{ className: 'fila1', cols: 40, rows: 2 }] },
+        { superior: [{ className: 'fila2', cols: 6, rows: 2 }] },
+        { superior: [{ className: 'fila2 linea_div', cols: 34, rows: 2 }] },
         { veces: 4, superior: [{ texto: 'Chicago Bulls', cols: 12, rows: 2 }] },
         {
           superior: [
@@ -796,10 +815,11 @@ export function initNbaTableData() {
       ]
     },
     {
-      className: 'nba_seattle top2',
+      className: 'nba_seattle top1',
       classNameInf: 'nba_seattle',
       etapas: [
-        { superior: [{ className: 'fila2', cols: 42, rows: 2 }] },
+        { superior: [{ className: 'fila1', cols: 6, rows: 2 }] },
+        { superior: [{ className: 'fila1 linea_div', cols: 36, rows: 2 }] },
         {
           superior: [
             { texto: 'Seattle Supersonics', cols: 18, rows: 2 },
@@ -853,10 +873,11 @@ export function initNbaTableData() {
       ]
     },
     {
-      className: 'nba_rockets top1',
+      className: 'nba_rockets top2',
       classNameInf: 'nba_rockets',
       etapas: [
-        { superior: [{ className: 'fila1', cols: 42, rows: 2 }] },
+        { superior: [{ className: 'fila2', cols: 6, rows: 2 }] },
+        { superior: [{ className: 'fila2 linea_div', cols: 36, rows: 2 }] },
         { superior: [{ texto: 'San Diego Rockets', cols: 8, rows: 2 }] },
         {
           superior: [
@@ -883,10 +904,11 @@ export function initNbaTableData() {
       ]
     },
     {
-      className: 'nba_milwaukee top2',
+      className: 'nba_milwaukee top1',
       classNameInf: 'nba_milwaukee',
       etapas: [
-        { superior: [{ className: 'fila2', cols: 44, rows: 2 }] },
+        { superior: [{ className: 'fila1', cols: 6, rows: 2 }] },
+        { superior: [{ className: 'fila1 linea_div', cols: 38, rows: 2 }] },
         {
           superior: [
             { cols: 4 },
@@ -922,18 +944,20 @@ export function initNbaTableData() {
       ]
     },
     {
-      className: 'nba_phoenix top1',
+      className: 'nba_phoenix top2',
       etapas: [
-        { superior: [{ className: 'fila1', cols: 44 }] },
+        { superior: [{ className: 'fila2', cols: 6 }] },
+        { superior: [{ className: 'fila2 linea_div', cols: 38 }] },
         { veces: 11, superior: [{ texto: 'Phoenix Suns', cols: 10 }] },
         { superior: [{ texto: 'Phoenix Suns', cols: 8 }] },
       ]
     },
     {
-      className: 'nba_buffalo top2',
+      className: 'nba_buffalo top1',
       classNameInf: 'nba_boston',
       etapas: [
-        { superior: [{ className: 'fila2', cols: 48, rows: 2 }] },
+        { superior: [{ className: 'fila1', cols: 6, rows: 2 }] },
+        { superior: [{ className: 'fila1 linea_div', cols: 42, rows: 2 }] },
         { veces: 2, superior: [{ texto: 'Buffalo Braves', cols: 8, rows: 2 }] },
         {
           superior: [
@@ -998,10 +1022,11 @@ export function initNbaTableData() {
       ]
     },
     {
-      className: 'nba_cleveland top1',
+      className: 'nba_cleveland top2',
       classNameInf: 'nba_cleveland',
       etapas: [
-        { superior: [{ className: 'fila1', cols: 48, rows: 2 }] },
+        { superior: [{ className: 'fila2', cols: 6, rows: 2 }] },
+        { superior: [{ className: 'fila2 linea_div', cols: 42, rows: 2 }] },
         { superior: [{ texto: 'Cleveland Cavaliers', cols: 16, rows: 2 }] },
         { veces: 5, superior: [{ texto: 'Cleveland Cavaliers', cols: 14, rows: 2 }] },
         {
@@ -1017,10 +1042,11 @@ export function initNbaTableData() {
       ]
     },
     {
-      className: 'nba_portland top2',
+      className: 'nba_portland top1',
       classNameInf: 'nba_portland',
       etapas: [
-        { superior: [{ className: 'fila2', cols: 48, rows: 2 }] },
+        { superior: [{ className: 'fila1', cols: 6, rows: 2 }] },
+        { superior: [{ className: 'fila1 linea_div', cols: 42, rows: 2 }] },
         {
           superior: [
             { texto: 'Portland Trail Blazers', cols: 10, rows: 2 },
@@ -1045,10 +1071,10 @@ export function initNbaTableData() {
       ]
     },
     {
-      className: 'nba_jazz top1',
+      className: 'nba_jazz top2',
       etapas: [
-        { superior: [{ className: 'fila1', cols: 50 }] },
-        { superior: [{ className: 'fila1', cols: 6 }] },
+        { superior: [{ className: 'fila2', cols: 6 }] },
+        { superior: [{ className: 'fila2 linea_div', cols: 50 }] },
         { superior: [{ texto: 'New Orleans Jazz', cols: 10 }] },
         {
           superior: [
@@ -1060,10 +1086,11 @@ export function initNbaTableData() {
       ]
     },
     {
-      className: 'nba_denver top2',
+      className: 'nba_denver top1',
       classNameInf: 'nba_denver',
       etapas: [
-        { superior: [{ className: 'fila2', cols: 42, rows: 2 }] },
+        { superior: [{ className: 'fila1', cols: 6, rows: 2 }] },
+        { superior: [{ className: 'fila1 linea_div', cols: 36, rows: 2 }] },
         {
           superior: [
             { className: 'noLiga', texto: 'Denver Rockets', cols: 16, rows: 2 },
@@ -1089,9 +1116,10 @@ export function initNbaTableData() {
       ]
     },
     {
-      className: 'nba_indiana top1',
+      className: 'nba_indiana top2',
       etapas: [
-        { superior: [{ className: 'fila1', cols: 42 }] },
+        { superior: [{ className: 'fila2', cols: 6 }] },
+        { superior: [{ className: 'fila2 linea_div', cols: 36 }] },
         {
           superior: [
             { className: 'noLiga', texto: 'ABA', cols: 18 },
@@ -1103,9 +1131,10 @@ export function initNbaTableData() {
       ]
     },
     {
-      className: 'nba_nets top2',
+      className: 'nba_nets top1',
       etapas: [
-        { superior: [{ className: 'fila2', cols: 42 }] },
+        { superior: [{ className: 'fila1', cols: 6 }] },
+        { superior: [{ className: 'fila1 linea_div', cols: 36 }] },
         {
           superior: [
             { className: 'noLiga', texto: 'New Jersey Americans', cols: 2 },
@@ -1136,10 +1165,11 @@ export function initNbaTableData() {
       ]
     },
     {
-      className: 'nba_spurs top1',
+      className: 'nba_spurs top2',
       classNameInf: 'nba_spurs',
       etapas: [
-        { superior: [{ className: 'fila1', cols: 42, rows: 2 }] },
+        { superior: [{ className: 'fila2', cols: 6, rows: 2 }] },
+        { superior: [{ className: 'fila2 linea_div', cols: 36, rows: 2 }] },
         {
           superior: [
             { className: 'noLiga', texto: 'Dallas Chaparrals', cols: 6, rows: 2 },
@@ -1216,11 +1246,12 @@ export function initNbaTableData() {
       ]
     },
     {
-      className: 'nba_dallas top2',
+      className: 'nba_dallas top1',
       classNameInf: 'nba_dallas',
       etapas: [
-        { superior: [{ className: 'fila2', cols: 50, rows: 2 }] },
-        { superior: [{ className: 'fila2', cols: 18, rows: 2 }] },
+        { superior: [{ className: 'fila1', cols: 6, rows: 2 }] },
+        { superior: [{ className: 'fila1 linea_div', cols: 54, rows: 2 }] },
+        { superior: [{ className: 'fila1 linea_div', cols: 8, rows: 2 }] },
         { veces: 4, superior: [{ texto: 'Dallas Mavericks', cols: 12, rows: 2 }] },
         { superior: [{ texto: 'Dallas Mavericks', cols: 10, rows: 2 }] },
         {
@@ -1239,10 +1270,11 @@ export function initNbaTableData() {
       ]
     },
     {
-      className: 'nba_hornets top1',
+      className: 'nba_hornets top2',
       etapas: [
-        { superior: [{ className: 'fila1', cols: 50 }] },
-        { superior: [{ className: 'fila1', cols: 36 }] },
+        { superior: [{ className: 'fila2', cols: 6 }] },
+        { superior: [{ className: 'fila2 linea_div', cols: 54 }] },
+        { superior: [{ className: 'fila2 linea_div', cols: 26 }] },
         { superior: [{ texto: 'Charlotte Hornets', cols: 14 }] },
         { superior: [{ texto: 'Charlotte Hornets', cols: 12 }] },
         {
@@ -1284,11 +1316,12 @@ export function initNbaTableData() {
       ]
     },
     {
-      className: 'nba_miami top2',
+      className: 'nba_miami top1',
       classNameInf: 'nba_miami',
       etapas: [
-        { superior: [{ className: 'fila2', cols: 50, rows: 2 }] },
-        { superior: [{ className: 'fila2', cols: 36, rows: 2 }] },
+        { superior: [{ className: 'fila1', cols: 6, rows: 2 }] },
+        { superior: [{ className: 'fila1 linea_div', cols: 54, rows: 2 }] },
+        { superior: [{ className: 'fila1 linea_div', cols: 26, rows: 2 }] },
         { veces: 2, superior: [{ texto: 'Miami Heat', cols: 10, rows: 2 }] },
         { superior: [{ texto: 'Miami Heat', cols: 8, rows: 2 }] },
         {
@@ -1318,30 +1351,33 @@ export function initNbaTableData() {
       ]
     },
     {
-      className: 'nba_wolves top1',
+      className: 'nba_wolves top2',
       etapas: [
-        { superior: [{ className: 'fila1', cols: 50 }] },
-        { superior: [{ className: 'fila1', cols: 38 }] },
+        { superior: [{ className: 'fila2', cols: 6 }] },
+        { superior: [{ className: 'fila2 linea_div', cols: 54 }] },
+        { superior: [{ className: 'fila2 linea_div', cols: 28 }] },
         { veces: 4, superior: [{ texto: 'Minnesota Timberwolves', cols: 16 }] },
         { superior: [{ texto: 'Minnesota Timberwolves', cols: 10 }] },
       ]
     },
     {
-      className: 'nba_orlando top2',
+      className: 'nba_orlando top1',
       etapas: [
-        { superior: [{ className: 'fila2', cols: 50 }] },
-        { superior: [{ className: 'fila2', cols: 38 }] },
+        { superior: [{ className: 'fila1', cols: 6 }] },
+        { superior: [{ className: 'fila1 linea_div', cols: 54 }] },
+        { superior: [{ className: 'fila1 linea_div', cols: 28 }] },
         { veces: 5, superior: [{ texto: 'Orlando Magic', cols: 12 }] },
         { superior: [{ texto: 'Orlando Magic', cols: 8 }] },
         { superior: [{ texto: 'Orlando Magic', cols: 6 }] },
       ]
     },
     {
-      className: 'nba_toronto top1',
+      className: 'nba_toronto top2',
       classNameInf: 'nba_toronto',
       etapas: [
-        { superior: [{ className: 'fila1', cols: 50, rows: 2 }] },
-        { superior: [{ className: 'fila1', cols: 48, rows: 2 }] },
+        { superior: [{ className: 'fila2', cols: 6, rows: 2 }] },
+        { superior: [{ className: 'fila2 linea_div', cols: 54, rows: 2 }] },
+        { superior: [{ className: 'fila2 linea_div', cols: 38, rows: 2 }] },
         { superior: [{ texto: 'Toronto Raptors', cols: 12, rows: 2 }] },
         { veces: 3, superior: [{ texto: 'Toronto Raptors', cols: 10, rows: 2 }] },
         {
@@ -1358,10 +1394,11 @@ export function initNbaTableData() {
       ]
     },
     {
-      className: 'nba_grizzlies top2',
+      className: 'nba_grizzlies top1',
       etapas: [
-        { superior: [{ className: 'fila2', cols: 50 }] },
-        { superior: [{ className: 'fila2', cols: 48 }] },
+        { superior: [{ className: 'fila1', cols: 6 }] },
+        { superior: [{ className: 'fila1 linea_div', cols: 54 }] },
+        { superior: [{ className: 'fila1 linea_div', cols: 38 }] },
         { superior: [{ texto: 'Vancouver Grizzlies', cols: 12 }] },
         {
           superior: [{
@@ -1375,10 +1412,11 @@ export function initNbaTableData() {
       ]
     },
     {
-      className: 'nba_bobcats top1',
+      className: 'nba_bobcats top2',
       etapas: [
-        { veces: 2, superior: [{ className: 'fila1', cols: 50 }] },
-        { superior: [{ className: 'fila1', cols: 16 }] },
+        { superior: [{ className: 'fila2', cols: 6 }] },
+        { veces: 2, superior: [{ className: 'fila2 linea_div', cols: 54 }] },
+        { superior: [{ className: 'fila2', cols: 2 }] },
         { veces: 2, superior: [{ texto: 'Charlotte Bobcats', cols: 10 }] },
         {
           superior: [{
@@ -1398,7 +1436,6 @@ export function initNbaTableData() {
     },
   ])
 }
-
 
 export default initNbaTableYears;
 

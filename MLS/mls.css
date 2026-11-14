@@ -1,0 +1,285 @@
+body {
+    font-family: "Roboto";
+}
+
+/* Contenedores */
+.caja {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.caja_top {
+    background-color: cadetblue;
+    border-bottom: 0.2rem solid gainsboro;
+}
+
+.caja_bottom {
+    background-color: cadetblue;
+    border-top: 0.2rem solid gainsboro;
+}
+
+.zona_merge {
+    border-left: 0.2rem dotted gainsboro;
+    color: gainsboro;
+    text-align: left;
+    padding-left: 1em;
+}
+
+.linea_div {
+    text-align: left;
+    border-left: 0.2rem dotted black;
+}
+
+/* Tablas */
+.table_timeline {
+    border: none;
+    text-align: center;
+    border-collapse: collapse;
+    white-space: nowrap;
+    color: white;
+    /* background-color: #82d682; */
+}
+
+.table_timeline thead th {
+    background-color: CadetBlue;
+    /* width: 75px; */
+}
+
+.table_timeline tfoot th {
+    background-color: CadetBlue;
+    /* width: 75px; */
+}
+
+.table_timeline td {
+    vertical-align: bottom;
+    padding-bottom: 0.3em;
+    white-space: wrap;
+}
+
+.cont-tabla {
+    overflow-x: auto;
+    border: black 0.2em solid;
+    /* max-width: 95%; */
+    height: 72vh;
+    margin: 1em;
+}
+
+/* Colores */
+.fila1 {
+    background-color: #90EE90;
+}
+
+.fila2 {
+    background-color: #82d682;
+}
+
+.top1 {
+    border-top: solid #90EE90 0.3em;
+}
+
+.top2 {
+    border-top: solid #82d682 0.3em;
+}
+
+.invisible {
+    background-color: CadetBlue;
+    color: CadetBlue;
+}
+
+.noLiga {
+    background-color: silver;
+    color: black;
+    text-align: right;
+    padding-right: 0.4em;
+}
+
+.noLiga_chgname {
+    border-left: black 0.1em dashed;
+}
+
+/* Colores equipos */
+.mls_colorado {
+    background-color: #862633;
+    color: #8BB8E8;
+}
+
+.mls_columbus {
+    background-color: black;
+    color: gold;
+}
+
+.mls_dc {
+    background-color: black;
+    color: #EF3E42;
+}
+
+.mls_dallas {
+    background-color: #CE1141;
+    color: #0033A0;
+}
+
+.mls_dallas_chgname {
+    border-left: #0033A0 0.1em dashed;
+}
+
+.mls_kansas {
+    background-color: #91B0D4;
+    color: #002F65;
+}
+
+.mls_kansas_chgname {
+    border-left: #002F65 0.1em dashed;
+}
+
+.mls_galaxy {
+    background-color: gold;
+    color: olivedrab;
+}
+
+.mls_revolution {
+    background-color: #CE0F2D;
+    color: blue;
+}
+
+.mls_metros {
+    background-color: khaki;
+    color: red;
+}
+
+.mls_metros_chgname {
+    border-left: red 0.1em dashed;
+}
+
+.mls_sanjose {
+    background-color: darkslateblue;
+    color: silver;
+}
+
+.mls_sanjose_chgname {
+    border-left: silver 0.1em dashed;
+}
+
+.mls_mutiny {
+    background-color: #00245D;
+    color: #FFD200;
+}
+
+.mls_chicago {
+    background-color: red;
+    color: aqua;
+}
+
+.mls_fusion {
+    background-color: ivory;
+    color: goldenrod;
+}
+
+.mls_chivas {
+    background-color: ivory;
+    color: red;
+}
+
+.mls_rsl {
+    background-color: #B30838;
+    color: #013E7D;
+}
+
+.mls_houston {
+    background-color: #F4911E;
+    color: #101820;
+}
+
+.mls_toronto {
+    background-color: #86a7bd;
+    color: #B01E23;
+}
+
+.mls_seattle {
+    background-color: #658D1B;
+    color: #10336B;
+}
+
+.mls_philly {
+    background-color: #B18B2B;
+    color: #002B5C;
+}
+
+.mls_portland {
+    background-color: #004812;
+    color: #F2D024
+}
+
+.mls_vancouver {
+    background-color: blue;
+    color: seashell;
+}
+
+.mls_montreal {
+    background-color: #003DA5;
+    color: silver;
+}
+
+.mls_montreal_chgname {
+    border-left: silver 0.1em dashed;
+}
+
+.mls_nyfc {
+    background-color: #6CACE4;
+    color: #00285E;
+}
+
+.mls_orlando {
+    background-color: #612B9B;
+    color: #FDE192;
+}
+
+.mls_atlanta {
+    background-color: brown;
+    color: moccasin;
+}
+
+.mls_minnesota {
+    background-color: paleturquoise;
+    color: black;
+}
+
+.mls_lafc {
+    background-color: burlywood;
+    color: black;
+}
+
+.mls_cincinnati {
+    background-color: #F05323;
+    color: #003087;
+}
+
+.mls_miami {
+    background-color: #F7B5CD;
+    color: #231F20;
+}
+
+.mls_nashville {
+    background-color: #ECE83A;
+    color: #1F4E79;
+}
+
+.mls_austin {
+    background-color: black;
+    color: #05db54;
+}
+
+.mls_charlotte {
+    color: #101820;
+    background-color: aquamarine;
+}
+
+.mls_stlouis {
+    color: white;
+    background-color: #E4002B;
+}
+
+.mls_sandiego {
+    color: #00205B;
+    background-color: #00A3E0;
+}

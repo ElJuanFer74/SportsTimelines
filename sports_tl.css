@@ -79,13 +79,12 @@ body {
   gap: 8px;
 } */
 
-.cont-tabla {
+/* .cont-tabla {
   overflow-x: auto;
   border: black 0.2em solid;
-  /* max-width: 95%; */
   height: 64vh;
   margin: 1em;
-}
+} */
 
 .fix-tablehead {
   overflow-y: auto;
@@ -147,3 +146,7 @@ body {
 .ajustes td {
   width: 80px;
 }
+
+/* .ajustes td {
+    width: 45px;
+} */
