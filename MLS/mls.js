@@ -384,12 +384,11 @@ export function initMlsTableData() {
             className: 'mls_seattle top1',
             classNameInf: 'mls_seattle',
             etapas: [
-                { superior: [{ className: 'noLiga', texto: 'APSL', cols: 2, rows: 2 }] },
                 {
                     superior: [{
-                        className: 'noLiga noLiga_chgname',
+                        className: 'noLiga',
                         texto: 'A-League',
-                        cols: 8, rows: 2
+                        cols: 10, rows: 2
                     }]
                 },
                 {
@@ -476,12 +475,8 @@ export function initMlsTableData() {
                     }],
                     inferior: [{
                         className: 'noLiga',
-                        texto: 'APSL',
-                        cols: 2
-                    }, {
-                        className: 'noLiga noLiga_chgName',
                         texto: 'A-League',
-                        cols: 8
+                        cols: 10
                     }]
                 },
                 {
@@ -508,8 +503,7 @@ export function initMlsTableData() {
         {
             className: 'mls_montreal top1',
             etapas: [
-                { superior: [{ className: 'noLiga', texto: 'APSL', cols: 2 }] },
-                { superior: [{ className: 'noLiga', texto: 'A-League', cols: 2 }] },
+                { superior: [{ className: 'noLiga', texto: 'A-League', cols: 4 }] },
                 { superior: [{ className: 'fila1', cols: 1 }] },
                 { superior: [{ className: 'noLiga', texto: 'A-League', cols: 5 }] },
                 {
@@ -561,7 +555,7 @@ export function initMlsTableData() {
                 { superior: [{ className: 'fila1', cols: 14, rows: 2 }] },
                 {
                     superior: [
-                        { className: 'noLiga', texto: 'Austni Aztex FC', cols: 2 }
+                        { className: 'noLiga', texto: 'Austin Aztex FC', cols: 2 }
                     ],
                     inferior: [
                         {
