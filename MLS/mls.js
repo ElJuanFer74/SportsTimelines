@@ -670,10 +670,10 @@ export function initMlsTableData() {
             ]
         },
         {
-            className: 'mls_nashville top2',
+            className: 'mls_nashville top1',
             classNameInf: 'mls_nashville',
             etapas: [
-                { superior: [{ className: 'fila2', cols: 23, rows: 2 }] },
+                { superior: [{ className: 'fila1', cols: 23, rows: 2 }] },
                 { superior: [{ className: 'noLiga', texto: 'USL', cols: 1, rows: 2 }] },
                 {
                     superior: [{
@@ -693,27 +693,27 @@ export function initMlsTableData() {
             ]
         },
         {
-            className: 'mls_austin top1',
+            className: 'mls_austin top2',
             etapas: [
-                { superior: [{ className: 'fila1', cols: 20 }] },
-                { superior: [{ className: 'fila1', cols: 6 }] },
+                { superior: [{ className: 'fila2', cols: 20 }] },
+                { superior: [{ className: 'fila2', cols: 6 }] },
                 { superior: [{ texto: 'Austin FC', cols: 6 }] },
             ]
         },
         {
-            className: 'mls_charlotte top2',
+            className: 'mls_charlotte top1',
             etapas: [
-                { superior: [{ className: 'fila2', cols: 20 }] },
-                { superior: [{ className: 'fila2', cols: 7 }] },
+                { superior: [{ className: 'fila1', cols: 20 }] },
+                { superior: [{ className: 'fila1', cols: 7 }] },
                 { superior: [{ texto: 'Charlotte FC', cols: 5 }] },
             ]
         },
         {
-            className: 'mls_stlouis top1',
+            className: 'mls_stlouis top2',
             classNameInf: 'mls_stlouis',
             etapas: [
-                { superior: [{ className: 'fila1', cols: 20, rows: 2 }] },
-                { superior: [{ className: 'fila1', cols: 8, rows: 2 }] },
+                { superior: [{ className: 'fila2', cols: 20, rows: 2 }] },
+                { superior: [{ className: 'fila2', cols: 8, rows: 2 }] },
                 {
                     superior: [
                         { cols: 3 },
@@ -724,10 +724,10 @@ export function initMlsTableData() {
             ]
         },
         {
-            className: 'mls_sandiego top2',
+            className: 'mls_sandiego top1',
             etapas: [
-                { superior: [{ className: 'fila2', cols: 20 }] },
-                { superior: [{ className: 'fila2', cols: 10 }] },
+                { superior: [{ className: 'fila1', cols: 20 }] },
+                { superior: [{ className: 'fila1', cols: 10 }] },
                 { superior: [{ texto: 'San Diego FC', cols: 2 }] },
             ]
         },
