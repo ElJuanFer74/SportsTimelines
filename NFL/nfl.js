@@ -246,7 +246,7 @@ export function initNflTableData() {
                         { texto: '★' },
                         { cols: 3 }
                     ],
-                    inferior: [{ texto: 'New York Giants', cols: 10 }]
+                    inferior: [{ className: 'linea_div', texto: 'New York Giants', cols: 10 }]
                 },
                 { superior: [{ texto: 'New York Giants', cols: 10, rows: 2 }] },
             ]

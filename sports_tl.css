@@ -1,11 +1,11 @@
 :root {
-  --row-height: 38px;
+  /* --row-height: 38px;
   --bar-height: 26px;
   --axis-height: 28px;
   --gap: 6px;
   --label-padding: 10px;
-  --year-width: 140px;
-  --timeline-offset: 200px;
+  --year-width: 140px; */
+  --timeline-offset: 50px;
 }
 
 * {
@@ -17,6 +17,10 @@ body {
   font-family: "Roboto";
   background: #f7f7f7;
   color: #1f1f1f;
+}
+
+header {
+  max-height: 70px;
 }
 
 .page-header {
@@ -62,7 +66,7 @@ body {
   width: 100%;
   max-height: calc(100vh - var(--timeline-offset));
   max-height: calc(100dvh - var(--timeline-offset));
-  min-height: 300px;
+  min-height: 100px;
   overflow: auto;
 }
 
@@ -87,7 +91,8 @@ body {
   justify-content: space-between;
   /* border: blue 0.2em solid; */
   width: min(1400px, calc(100% - 32px));
-  margin: 12px auto 48px auto;
+  margin: 12px auto 12px auto;
+  max-height: 142px;
 }
 
 .note-container {
@@ -127,6 +132,34 @@ body {
   white-space: wrap;
 }
 
+.cont-tabla {
+  overflow-x: auto;
+  border: black 0.2em solid;
+  margin: 1em;
+}
+
 .ajustes td {
   min-width: 60px;
+}
+
+.caja_top {
+  background-color: cadetblue;
+  border-bottom: 0.2rem solid gainsboro;
+}
+
+.caja_bottom {
+  background-color: cadetblue;
+  border-top: 0.2rem solid gainsboro;
+}
+
+.zona_merge {
+  border-left: 0.2rem dotted gainsboro;
+  color: gainsboro;
+  text-align: left;
+  padding-left: 1em;
+}
+
+.linea_div {
+  text-align: center;
+  border-left: 0.2rem dotted black;
 }
