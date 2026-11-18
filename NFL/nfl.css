@@ -5,7 +5,7 @@
 
 /* Colores */
 .fila1 {
-    background-color: #90EE90;
+    background-color: #9bf09b;
 }
 
 .fila2 {
@@ -13,7 +13,7 @@
 }
 
 .top1 {
-    border-top: solid #90EE90 0.3em;
+    border-top: solid #9bf09b 0.3em;
 }
 
 .top2 {
@@ -51,8 +51,8 @@
 
 /* Colores equipos */
 .nfl_redskins {
-    background-color: #800020;
-    color: gold;
+    background-color: #5A1414;
+    color: #FFB612;
 }
 
 .nfl_redskins_chgname {
@@ -65,8 +65,8 @@
 }
 
 .nfl_bears {
+    color: beige;
     background-color: maroon;
-    color: orangered;
 }
 
 .nfl_cards {
@@ -84,27 +84,27 @@
 }
 
 .nfl_packers {
-    background-color: darkgreen;
-    color: yellow;
+    background-color: #203731;
+    color: #FFB612;
 }
 
 .nfl_giants {
-    background-color: navy;
-    color: white
+    background-color: #0B2265;
+    color: #A71930;
 }
 
 .nfl_eagles {
-    background-color: green;
-    color: lightgray;
+    background-color: #004C54;
+    color: #A5ACAF;
 }
 
 .nfl_pitt {
     background-color: black;
-    color: yellow;
+    color: #FFB612;
 }
 
 .nfl_pitt_chgname {
-    border-left: yellow 0.1em dashed;
+    border-left: #FFB612 0.1em dashed;
 }
 
 .nfl_gunners {
@@ -113,8 +113,8 @@
 }
 
 .nfl_detroit {
-    background-color: lightgray;
-    color: blue
+    background-color: #0076B6;
+    color: #B0B7BC
 }
 
 .nfl_spartans {
@@ -123,21 +123,21 @@
 }
 
 .nfl_rams {
-    background-color: blue;
-    color: gold;
+    background-color: #003594;
+    color: #FFD100;
 }
 
 .nfl_rams_chgname {
-    border-left: gold 0.1em dashed;
+    border-left: #FFD100 0.1em dashed;
 }
 
 .nfl_yanks {
-    background-color: gainsboro;
-    color: orangered;
+    background-color: darkolivegreen;
+    color: darksalmon;
 }
 
 .nfl_yanks_chgname {
-    border-left: orangered 0.1em dashed;
+    border-left: darksalmon 0.1em dashed;
 }
 
 .nfl_bulldogs {
@@ -154,18 +154,18 @@
 }
 
 .nfl_cleveland {
-    background-color: darkorange;
-    color: brown;
+    background-color: #FF3C00;
+    color: #311D00;
 }
 
 .nfl_49ers {
-    background-color: burlywood;
-    color: firebrick;
+    background-color: #B3995D;
+    color: #AA0000;
 }
 
 .nfl_colts {
-    background-color: white;
-    color: blue;
+    background-color: #e2e8ea;
+    color: #002C5F;
 }
 
 .nfl_texans {
@@ -179,8 +179,8 @@
 }
 
 .nfl_dallas {
-    background-color: gainsboro;
-    color: navy;
+    background-color: #869397;
+    color: #003594;
 }
 
 .afl_patriots {
@@ -188,14 +188,18 @@
     color: white;
 }
 
+.afl_patriots_chgname {
+    border-left: white 0.1em dashed;
+}
+
 .afl_buffalo {
-    background-color: red;
-    color: navy
+    background-color: #C60C30;
+    color: #00338D
 }
 
 .afl_denver {
-    background-color: darkorange;
-    color: white;
+    color: #FB4F14;
+    background-color: #002244;
 }
 
 .afl_oilers {
@@ -204,21 +208,25 @@
 }
 
 .afl_chargers {
-    background-color: powderblue;
-    color: goldenrod;
+    background-color: #0080C6;
+    color: #FFC20E;
 }
 
 .afl_chargers_chgname {
-    border-left: goldenrod 0.1em dashed;
+    border-left: #FFC20E 0.1em dashed;
 }
 
 .afl_raiders {
     background-color: black;
-    color: silver
+    color: #A5ACAF
+}
+
+.afl_raiders_chgname {
+    border-left: #A5ACAF 0.1em dashed;
 }
 
 .afl_jets {
-    background-color: darkgreen;
+    background-color: #125740;
     color: white
 }
 
@@ -227,13 +235,13 @@
 }
 
 .afl_chiefs {
-    background-color: crimson;
-    color: yellow;
+    background-color: #E31837;
+    color: #FFB81C;
 }
 
 .nfl_minnesota {
-    background-color: purple;
-    color: yellow;
+    background-color: #4F2683;
+    color: #FFC62F;
 }
 
 .nfl_atlanta {
@@ -242,16 +250,26 @@
 }
 
 .afl_miami {
-    background-color: coral;
-    color: aqua;
+    background-color: #FC4C02;
+    color: #008E97;
 }
 
 .nfl_saints {
-    background-color: gold;
-    color: black;
+    background-color: #D3BC8D;
+    color: #101820;
 }
 
 .afl_bengals {
-    background-color: orangered;
-    color: black;
+    color: #FB4F14;
+    background-color: black;
+}
+
+.nfl_tampa {
+    background-color: linen;
+    color: orangered;
+}
+
+.nfl_seattle {
+    background-color: #002244;
+    color: #69BE28;
 }
