@@ -38,8 +38,9 @@ export function createYearHeaderRow(ranges = []) {
       const label =
         startIsString ? item.startYear : item.endYear;
 
-      const columns = Number.isFinite(Number(item.columns))
-        ? Math.trunc(Number(item.columns))
+      const rawColumns = item.columns != null ? item.columns : item.cols;
+      const columns = Number.isFinite(Number(rawColumns))
+        ? Math.trunc(Number(rawColumns))
         : 1;
       const useColspan = columns > 1;
 

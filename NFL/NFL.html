@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="CONTENT-TYPE" content="text/html; charset=utf-8">
+    <title>National Football League - Timeline</title>
+    <link rel="stylesheet" href="../sports_tl.css">
+    <link rel="stylesheet" type="text/css" href="./nfl.css">
+</head>
+
+<body>
+    <header class="page-header">
+        <h1 class="title-header">Línea de tiempo equipos NFL</h1>
+    </header>
+
+    <main class="main-wrapper">
+        <div class="timeline-wrapper" id="wrapper-sports">
+            <h2 class="league-title league-title-pos">1933 - Presente</h2>
+            <div class="timeline" id="timeline-sports">
+                <div class="cont-tabla fix-tablehead">
+                    <table class="table_timeline" id="table_timeline">
+                        <thead>
+                            <tr>
+                                <td class="caja_top" colspan="19">&nbsp;</td>
+                                <td class="caja_top zona_merge" colspan="11">Fusión con AAFC</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td class="caja_bottom" colspan="19">&nbsp;</td>
+                                <td class="caja_bottom zona_merge" colspan="11">Fusión con AAFC</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="notes-wrapper">
+            <div class="note-container">
+                <p class="note-row"><span class="note-key">★</span> - Campeón de liga hasta 1966. Ganador Super Bowl
+                    después.</p>
+                <p class="note-row"><span class="note-key">◆</span> - Campeón de liga 1966 a 1970</p>
+                <br />
+                <p class="note-row">
+                    <span class="noLiga">Equipo</span> - Indica que el equipo participó en otra liga.
+                </p>
+            </div>
+            <div class="note-container">
+                <p class="note-row">
+                    <span class="note-key">AFL-2</span> - American Football League (1936-1938)
+                </p>
+                <p class="note-row">
+                    <span class="note-key">AAFC</span> - All-America Football Conference (1946-1949)
+                </p>
+                <p class="note-row">
+                    <span class="note-key">AFL-3</span> - American Football League (1960-1969)
+                </p>
+                <br />
+                <p>No se incluyen equipos de una liga que desaparecen antes de la fusión.</p>
+            </div>
+        </div>
+    </main>
+    <script type="module">
+        import { initNflTableYears, initNflTableData } from './nfl.js';
+        initNflTableYears();
+        const stageRows = initNflTableData();
+        const tbody = document.querySelector('#table_timeline tbody');
+        stageRows.forEach((r) => tbody.appendChild(r));
+    </script>
+</body>
+
+</html>

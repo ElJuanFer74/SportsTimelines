@@ -1,0 +1,286 @@
+body {
+    font-family: "Roboto";
+}
+
+/* Contenedores */
+.caja {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.caja_top {
+    background-color: cadetblue;
+    border-bottom: 0.2rem solid gainsboro;
+}
+
+.caja_bottom {
+    background-color: cadetblue;
+    border-top: 0.2rem solid gainsboro;
+}
+
+.zona_merge {
+    border-left: 0.2rem dotted gainsboro;
+    color: gainsboro;
+    text-align: left;
+    padding-left: 1em;
+}
+
+.linea_div {
+    text-align: center;
+    border-left: 0.2rem dotted black;
+}
+
+/* Tablas */
+.table_timeline {
+    border: none;
+    text-align: center;
+    border-collapse: collapse;
+    white-space: nowrap;
+    color: white;
+    /* background-color: #82d682; */
+}
+
+.table_timeline thead th {
+    background-color: CadetBlue;
+    /* width: 75px; */
+}
+
+.table_timeline tfoot th {
+    background-color: CadetBlue;
+    /* width: 75px; */
+}
+
+.table_timeline td {
+    vertical-align: bottom;
+    padding-bottom: 0.3em;
+    white-space: wrap;
+}
+
+.cont-tabla {
+    overflow-x: auto;
+    border: black 0.2em solid;
+    /* max-width: 95%; */
+    height: 60vh;
+    margin: 1em;
+}
+
+/* Colores */
+.fila1 {
+    background-color: #90EE90;
+}
+
+.fila2 {
+    background-color: #82d682;
+}
+
+.top1 {
+    border-top: solid #90EE90 0.3em;
+}
+
+.top2 {
+    border-top: solid #82d682 0.3em;
+}
+
+.invisible {
+    background-color: CadetBlue;
+    color: CadetBlue;
+}
+
+.noLiga {
+    background-color: silver;
+    color: black;
+    text-align: right;
+    padding-right: 0.4em;
+}
+
+.noLiga_chgname {
+    border-left: black 0.1em dashed;
+}
+
+.center-vert {
+    vertical-align: middle !important;
+}
+
+.prev_liga {
+    border-top: dashed black 0.2em;
+}
+
+.text-right {
+    color: black;
+    text-align: right;
+}
+
+/* Colores equipos */
+.nfl_redskins {
+    background-color: #800020;
+    color: gold;
+}
+
+.nfl_redskins_chgname {
+    border-left: gold 0.1em dashed;
+}
+
+.nfl_brooklyn {
+    background-color: #BA9653;
+    color: #007A33;
+}
+
+.nfl_bears {
+    background-color: maroon;
+    color: orangered;
+}
+
+.nfl_cards {
+    background-color: navajowhite;
+    color: red;
+}
+
+.nfl_cards_chgname {
+    border-left: red 0.1em dashed;
+}
+
+.nfl_reds {
+    background-color: red;
+    color: aqua;
+}
+
+.nfl_packers {
+    background-color: darkgreen;
+    color: yellow;
+}
+
+.nfl_giants {
+    background-color: navy;
+    color: white
+}
+
+.nfl_eagles {
+    background-color: green;
+    color: lightgray;
+}
+
+.nfl_pitt {
+    background-color: black;
+    color: yellow;
+}
+
+.nfl_pitt_chgname {
+    border-left: yellow 0.1em dashed;
+}
+
+.nfl_gunners {
+    color: mediumvioletred;
+    background-color: darkkhaki
+}
+
+.nfl_detroit {
+    background-color: lightgray;
+    color: blue
+}
+
+.nfl_spartans {
+    background-color: lemonchiffon;
+    color: teal
+}
+
+.nfl_rams {
+    background-color: blue;
+    color: gold;
+}
+
+.nfl_rams_chgname {
+    border-left: gold 0.1em dashed;
+}
+
+.nfl_yanks {
+    background-color: gainsboro;
+    color: orangered;
+}
+
+.nfl_yanks_chgname {
+    border-left: orangered 0.1em dashed;
+}
+
+.nfl_bulldogs {
+    color: limegreen;
+    background-color: purple;
+}
+
+.nfl_bulldogs_chgname {
+    border-left: limegreen 0.1em dashed;
+}
+
+.nfl_bulldogs_top {
+    border-top: purple 0.3em solid;
+}
+
+.nfl_cleveland {
+    background-color: darkorange;
+    color: brown;
+}
+
+.nfl_49ers {
+    background-color: burlywood;
+    color: firebrick;
+}
+
+.nfl_colts {
+    background-color: white;
+    color: blue;
+}
+
+.nfl_texans {
+    background-color: lightblue;
+    color: blueviolet;
+}
+
+.aafc_miami {
+    background-color: darkseagreen;
+    color: aquamarine;
+}
+
+.nfl_dallas {
+    background-color: gainsboro;
+    color: navy;
+}
+
+.afl_patriots {
+    background-color: mediumblue;
+    color: white;
+}
+
+.afl_buffalo {
+    background-color: red;
+    color: navy
+}
+
+.afl_denver {
+    background-color: darkorange;
+    color: white;
+}
+
+.afl_oilers {
+    background-color: turquoise;
+    color: ghostwhite
+}
+
+.afl_chargers {
+    background-color: ivory;
+    color: goldenrod;
+}
+
+.afl_raiders {
+    background-color: black;
+    color: silver
+}
+
+.afl_jets {
+    background-color: darkgreen;
+    color: white
+}
+
+.afl_chiefs {
+    background-color: red;
+    color: yellow;
+}
