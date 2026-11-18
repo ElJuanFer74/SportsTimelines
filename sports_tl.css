@@ -14,7 +14,6 @@
 
 body {
   margin: 0;
-  /* font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif; */
   font-family: "Roboto";
   background: #f7f7f7;
   color: #1f1f1f;
@@ -50,7 +49,6 @@ body {
 }
 
 .timeline-wrapper {
-  /* width: min(1400px, calc(100% - 32px)); */
   width: 94%;
   margin: 12px auto 4px auto;
   background: #ffffff;
@@ -67,24 +65,6 @@ body {
   min-height: 300px;
   overflow: auto;
 }
-
-/*
-.timeline-inner {
-  position: relative;
-  width: calc(var(--total-years, 1) * var(--year-width) + 96px);
-  min-width: 100%;
-  padding: calc(var(--axis-height) + 12px) 48px calc(var(--axis-height) + 12px) 48px;
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-} */
-
-/* .cont-tabla {
-  overflow-x: auto;
-  border: black 0.2em solid;
-  height: 64vh;
-  margin: 1em;
-} */
 
 .fix-tablehead {
   overflow-y: auto;
@@ -124,7 +104,7 @@ body {
 }
 
 /* Tablas */
-.logos {
+.table_timeline {
   border: none;
   text-align: center;
   border-collapse: collapse;
@@ -133,20 +113,20 @@ body {
   /* background-color: #82d682; */
 }
 
-.logos thead th {
+.table_timeline thead th {
   background-color: CadetBlue;
-  /* width: 75px; */
 }
 
-.logos tfoot th {
+.table_timeline tfoot th {
   background-color: CadetBlue;
-  /* width: 75px; */
+}
+
+.table_timeline td {
+  vertical-align: bottom;
+  padding-bottom: 0.3em;
+  white-space: wrap;
 }
 
 .ajustes td {
-  width: 80px;
+  min-width: 60px;
 }
-
-/* .ajustes td {
-    width: 45px;
-} */
