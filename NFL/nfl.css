@@ -168,6 +168,10 @@
     color: #002C5F;
 }
 
+.nfl_colts_chgname {
+    border-left: #002C5F 0.1em dashed;
+}
+
 .nfl_texans {
     background-color: lightblue;
     color: blueviolet;

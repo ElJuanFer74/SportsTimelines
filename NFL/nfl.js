@@ -9,11 +9,10 @@ import { createYearHeaderRow, createStageRows } from '../sports_tl.js';
 export function initNflTableYears() {
     console.log('Por aqui');
     return createYearHeaderRow([
-        // { startYear: "Prev", endYear: "Prev", columns: 2 },
         { startYear: "Prev", endYear: "Prev" },
         { startYear: 1933, endYear: 1933 },
         { startYear: 1934, endYear: 1934, columns: 2 },
-        { startYear: 1935, endYear: 1983 },
+        { startYear: 1935, endYear: 1994 },
     ]);
 }
 
@@ -39,15 +38,24 @@ export function initNflTableData() {
                         cols: 7
                     }]
                 },
-                { veces: 5, superior: [{ texto: 'Washington Redskins', cols: 7, rows: 2 }] },
-                // { superior: [{ texto: 'Washington Redskins', cols: 3, rows: 2 }] },
+                { veces: 2, superior: [{ texto: 'Washington Redskins', cols: 8, rows: 2 }] },
+                { veces: 3, superior: [{ texto: 'Washington Redskins', cols: 7, rows: 2 }] },
+                {
+                    superior: [
+                        { cols: 1 },
+                        { texto: '★' },
+                        { cols: 4 },
+                        { texto: '★' },
+                    ],
+                    inferior: [{ texto: 'Washington Redskins', cols: 7 }]
+                },
                 {
                     superior: [
                         { cols: 3 },
                         { texto: '★' },
-                        { cols: 1 },
+                        { cols: 3 },
                     ],
-                    inferior: [{ texto: 'Washinton Redskins', cols: 5 }]
+                    inferior: [{ texto: 'Washington Redskins', cols: 7 }]
                 },
             ]
         },
@@ -122,8 +130,16 @@ export function initNflTableData() {
                     ],
                     inferior: [{ texto: 'Baltimore Colts', cols: 7 }]
                 },
-                { superior: [{ texto: 'Baltimore Colts', cols: 8, rows: 2 }] },
-                { superior: [{ texto: 'Baltimore Colts', cols: 4, rows: 2 }] }
+                { veces: 2, superior: [{ texto: 'Baltimore Colts', cols: 6, rows: 2 }] },
+                // { superior: [{ texto: 'Baltimore Colts', cols: 4, rows: 2 }] }
+                {
+                    superior: [{
+                        className: 'nfl_colts_chgname',
+                        texto: 'Indianapolis Colts',
+                        cols: 8, rows: 2
+                    }]
+                },
+                { superior: [{ texto: 'Indianapolis Colts', cols: 3, rows: 2 }] },
             ]
         },
         {
@@ -136,7 +152,7 @@ export function initNflTableData() {
                         { texto: '★' },
                         { cols: 1 },
                     ],
-                    inferior: [{ texto: 'Chicago Bears', cols: 4 }]
+                    inferior: [{ texto: 'Chicago Bears', cols: 3 }]
                 },
                 { superior: [{ texto: 'Chicago Bears', cols: 6, rows: 2 }] },
                 {
@@ -167,7 +183,15 @@ export function initNflTableData() {
                     inferior: [{ texto: 'Chicago Bears', cols: 10 }]
                 },
                 { veces: 2, superior: [{ texto: 'Chicago Bears', cols: 7, rows: 2 }] },
-                { superior: [{ texto: 'Chicago Bears', cols: 1, rows: 2 }] },
+                {
+                    superior: [
+                        { cols: 2 },
+                        { texto: '★' },
+                        { cols: 5 },
+                    ],
+                    inferior: [{ texto: 'Chicago Bears', cols: 8 }]
+                },
+                { superior: [{ texto: 'Chicago Bears', cols: 4, rows: 2 }] },
             ]
         },
         {
@@ -205,8 +229,8 @@ export function initNflTableData() {
                     ],
                     inferior: [{ texto: 'Green Bay Packers', cols: 10, }]
                 },
-                { veces: 2, superior: [{ texto: 'Green Bay Packers', cols: 7, rows: 2 }] },
-                // { superior: [{ texto: 'Green Bay Packers', cols: 5, rows: 2 }] },
+                { veces: 3, superior: [{ texto: 'Green Bay Packers', cols: 7, rows: 2 }] },
+                { superior: [{ texto: 'Green Bay Packers', cols: 4, rows: 2 }] },
             ]
         },
         {
@@ -240,6 +264,17 @@ export function initNflTableData() {
                 },
                 { veces: 2, superior: [{ texto: 'New York Giants', cols: 9, rows: 2 }] },
                 { superior: [{ texto: 'New York Giants', cols: 6, rows: 2 }] },
+                {
+                    superior: [
+                        { cols: 2 },
+                        { texto: '★' },
+                        { cols: 3 },
+                        { texto: '★' },
+                        { cols: 2 }
+                    ],
+                    inferior: [{ texto: 'New York Giants', cols: 9 }]
+                },
+                { superior: [{ texto: 'New York Giants', cols: 2, rows: 2 }] },
             ]
         },
         {
@@ -281,8 +316,8 @@ export function initNflTableData() {
                         texto: 'Detroit Lions', cols: 5
                     }]
                 },
-                { veces: 2, superior: [{ texto: 'Detroit Lions', cols: 8, rows: 2 }] },
-                { superior: [{ texto: 'Detroit Lions', cols: 7, rows: 2 }] },
+                { veces: 4, superior: [{ texto: 'Detroit Lions', cols: 8, rows: 2 }] },
+                { superior: [{ texto: 'Detroit Lions', cols: 2, rows: 2 }] },
             ]
         },
 
@@ -308,8 +343,21 @@ export function initNflTableData() {
                         cols: 10, rows: 2
                     }]
                 },
-                { superior: [{ texto: 'St. Louis Cardinals', cols: 9, rows: 2 }] },
-                { superior: [{ texto: 'St. Louis Cardinals', cols: 5, rows: 2 }] },
+                { veces: 2, superior: [{ texto: 'St. Louis Cardinals', cols: 9, rows: 2 }] },
+                {
+                    superior: [{
+                        className: 'nfl_cards_chgname',
+                        texto: 'Phoenix Cardinals',
+                        cols: 6, rows: 2
+                    }]
+                },
+                {
+                    superior: [{
+                        className: 'nfl_cards_chgname',
+                        texto: 'Arizona Cardinals',
+                        cols: 1, rows: 2
+                    }]
+                },
             ]
         },
         {
@@ -332,7 +380,8 @@ export function initNflTableData() {
                     ],
                     inferior: [{ texto: 'Pittsburgh Steelers', cols: 6 }]
                 },
-                { superior: [{ texto: 'Pittsburgh Steelers', cols: 4, rows: 2 }] },
+                { superior: [{ texto: 'Pittsburgh Steelers', cols: 8, rows: 2 }] },
+                { superior: [{ texto: 'Pittsburgh Steelers', cols: 7, rows: 2 }] },
             ]
         },
         {
@@ -358,8 +407,8 @@ export function initNflTableData() {
                     ],
                     inferior: [{ texto: 'Philadelphia Eagles', cols: 7 }]
                 },
-                { veces: 2, superior: [{ texto: 'Philadelphia Eagles', cols: 9, rows: 2 }] },
-                { superior: [{ texto: 'Philadelphia Eagles', cols: 2, rows: 2 }] },
+                { veces: 3, superior: [{ texto: 'Philadelphia Eagles', cols: 9, rows: 2 }] },
+                { superior: [{ texto: 'Philadelphia Eagles', cols: 4, rows: 2 }] },
             ]
         },
         {
@@ -370,7 +419,7 @@ export function initNflTableData() {
                 { superior: [{ className: 'nfl_gunners', texto: 'St. Louis Gunners', cols: 1 }] },
                 { superior: [{ cols: 15 }] },
                 { superior: [{ className: 'linea_div', cols: 20 }] },
-                { superior: [{ className: 'linea_div', cols: 14 }] },
+                { superior: [{ className: 'linea_div', cols: 25 }] },
             ]
         },
         {
@@ -406,8 +455,8 @@ export function initNflTableData() {
                         cols: 5
                     }]
                 },
-                { veces: 3, superior: [{ texto: 'Los Angeles Rams', cols: 8, rows: 2 }] },
-                { superior: [{ texto: 'Los Angeles Rams', cols: 5, rows: 2 }] },
+                { veces: 5, superior: [{ texto: 'Los Angeles Rams', cols: 8, rows: 2 }] },
+                // { superior: [{ texto: 'Los Angeles Rams', cols: 8, rows: 2 }] },
             ]
         },
         {
@@ -418,7 +467,7 @@ export function initNflTableData() {
                 { superior: [{ className: 'nfl_colts', texto: 'Baltimore Colts', cols: 3 }] },
                 { superior: [{ className: 'nfl_colts linea_div', texto: 'Baltimore Colts', cols: 1 }] },
                 { superior: [{ cols: 19 }] },
-                { superior: [{ className: 'linea_div', cols: 14 }] },
+                { superior: [{ className: 'linea_div', cols: 25 }] },
             ]
         },
         {
@@ -446,8 +495,8 @@ export function initNflTableData() {
                     ],
                     inferior: [{ className: 'linea_div', texto: 'Cleveland Browns', cols: 6 }]
                 },
-                { veces: 3, superior: [{ texto: 'Cleveland Browns', cols: 9, rows: 2 }] },
-                { superior: [{ texto: 'Cleveland Browns', cols: 1, rows: 2 }] },
+                { veces: 4, superior: [{ texto: 'Cleveland Browns', cols: 9, rows: 2 }] },
+                { superior: [{ texto: 'Cleveland Browns', cols: 3, rows: 2 }] },
             ]
         },
         {
@@ -463,14 +512,28 @@ export function initNflTableData() {
                         cols: 7, rows: 2
                     }]
                 },
+                // { veces: 2, superior: [{ texto: 'San Francisco 49ers', cols: 10, rows: 2 }] },
                 { veces: 2, superior: [{ texto: 'San Francisco 49ers', cols: 9, rows: 2 }] },
+                { superior: [{ texto: 'San Francisco 49ers', cols: 5, rows: 2 }] },
                 {
                     superior: [
-                        { cols: 6 },
+                        { cols: 1 },
+                        { texto: '★' },
+                        { cols: 2 },
                         { texto: '★' },
                         { cols: 2 }
                     ],
-                    inferior: [{ texto: 'San Francisco 49ers', cols: 9 }]
+                    inferior: [{ texto: 'San Francisco 49ers', cols: 7 }]
+                },
+                {
+                    superior: [
+                        { cols: 1 },
+                        { texto: '★' },
+                        { texto: '★' },
+                        { cols: 4 },
+                        { texto: '★' },
+                    ],
+                    inferior: [{ texto: 'San Francisco 49ers', cols: 8 }]
                 },
             ]
         },
@@ -498,7 +561,16 @@ export function initNflTableData() {
                     ],
                     inferior: [{ texto: 'Dallas Cowboys', cols: 7 }]
                 },
-                { superior: [{ className: 'top2', texto: 'Dallas Cowboys', cols: 2, rows: 2 }] },
+                { superior: [{ className: 'top2', texto: 'Dallas Cowboys', cols: 6, rows: 2 }] },
+                {
+                    superior: [
+                        { className: 'top2', cols: 4 },
+                        { className: 'top2', texto: '★' },
+                        { className: 'top2', texto: '★' },
+                        { className: 'top2', cols: 1 },
+                    ],
+                    inferior: [{ texto: 'Dallas Cowboys', cols: 7 }]
+                },
             ]
         },
         {
@@ -516,8 +588,8 @@ export function initNflTableData() {
                     ],
                     inferior: [{ texto: 'Minnesota Vikings', cols: 6 }]
                 },
-                { superior: [{ texto: 'Minnesota Vikings', cols: 8, rows: 2 }] },
-                { superior: [{ texto: 'Minnesota Vikings', cols: 2, rows: 2 }] },
+                { veces: 2, superior: [{ texto: 'Minnesota Vikings', cols: 8, rows: 2 }] },
+                { superior: [{ texto: 'Minnesota Vikings', cols: 5, rows: 2 }] },
             ]
         },
         {
@@ -525,8 +597,8 @@ export function initNflTableData() {
             etapas: [
                 { superior: [{ className: 'fila2 prev_liga', cols: 19 }] },
                 { superior: [{ className: 'fila2 linea_div', cols: 16 }] },
-                { veces: 2, superior: [{ texto: 'Atlanta Falcons', cols: 7 }] },
-                { superior: [{ texto: 'Atlanta Falcons', cols: 4 }] },
+                { veces: 4, superior: [{ texto: 'Atlanta Falcons', cols: 6 }] },
+                { superior: [{ texto: 'Atlanta Falcons', cols: 5 }] },
             ]
         },
         {
@@ -534,8 +606,8 @@ export function initNflTableData() {
             etapas: [
                 { superior: [{ className: 'fila1 prev_liga', cols: 19 }] },
                 { superior: [{ className: 'fila1 linea_div', cols: 17 }] },
-                { superior: [{ texto: 'New Orleans Saints', cols: 9 }] },
-                { superior: [{ texto: 'New Orleans Saints', cols: 8 }] },
+                { veces: 3, superior: [{ texto: 'New Orleans Saints', cols: 8 }] },
+                { superior: [{ texto: 'New Orleans Saints', cols: 4 }] },
             ]
         },
         {
@@ -556,7 +628,14 @@ export function initNflTableData() {
                     superior: [{
                         className: 'top2',
                         texto: 'New England Patriots (Foxboro)',
-                        cols: 4
+                        cols: 10
+                    }]
+                },
+                {
+                    superior: [{
+                        className: 'top2',
+                        texto: 'New England Patriots (Foxboro)',
+                        cols: 5
                     }]
                 },
             ]
@@ -583,7 +662,8 @@ export function initNflTableData() {
                         cols: 7, rows: 2
                     }]
                 },
-                { superior: [{ texto: 'Buffalo Bills', cols: 7, rows: 2 }] },
+                { veces: 2, superior: [{ texto: 'Buffalo Bills', cols: 7, rows: 2 }] },
+                { superior: [{ texto: 'Buffalo Bills', cols: 4, rows: 2 }] },
             ]
         },
         {
@@ -613,7 +693,8 @@ export function initNflTableData() {
                         cols: 8, rows: 2
                     }]
                 },
-                { superior: [{ texto: 'Kansas City Chiefs', cols: 6, rows: 2 }] },
+                { veces: 2, superior: [{ texto: 'Kansas City Chiefs', cols: 6, rows: 2 }] },
+                { superior: [{ texto: 'Kansas City Chiefs', cols: 5, rows: 2 }] },
             ]
         },
         {
@@ -629,7 +710,8 @@ export function initNflTableData() {
                         cols: 6
                     }]
                 },
-                { superior: [{ texto: 'Denver Broncos', cols: 8 }] },
+                { veces: 2, superior: [{ texto: 'Denver Broncos', cols: 7 }] },
+                { superior: [{ texto: 'Denver Broncos', cols: 5 }] },
             ]
         },
         {
@@ -656,7 +738,8 @@ export function initNflTableData() {
                         cols: 6, rows: 2
                     }]
                 },
-                { superior: [{ texto: 'Houston Oilers', cols: 8, rows: 2 }] },
+                { veces: 2, superior: [{ texto: 'Houston Oilers', cols: 7, rows: 2 }] },
+                { superior: [{ texto: 'Houston Oilers', cols: 5, rows: 2 }] },
             ]
         },
         {
@@ -685,7 +768,8 @@ export function initNflTableData() {
                         cols: 8, rows: 2
                     }]
                 },
-                { superior: [{ texto: 'San Diego Chargers', cols: 6, rows: 2 }] },
+                { veces: 2, superior: [{ texto: 'San Diego Chargers', cols: 7, rows: 2 }] },
+                { superior: [{ texto: 'San Diego Chargers', cols: 3, rows: 2 }] },
             ]
         },
         {
@@ -716,16 +800,18 @@ export function initNflTableData() {
                         { texto: '★' },
                         { cols: 2 },
                         { texto: '★' },
+                        { cols: 4 }
                     ],
                     inferior: [
                         { texto: 'Oakland Raiders', cols: 3 },
                         {
                             className: 'afl_raiders_chgname',
                             texto: 'Los Angeles Raiders',
-                            cols: 2
+                            cols: 6
                         }
                     ]
                 },
+                { superior: [{ texto: 'Los Angeles Raiders', cols: 7, rows: 2 }] },
             ]
         },
         {
@@ -754,8 +840,8 @@ export function initNflTableData() {
                         cols: 6, rows: 2
                     }]
                 },
-                { superior: [{ texto: 'New York Jets', cols: 7, rows: 2 }] },
-                { superior: [{ texto: 'New York Jets', cols: 1, rows: 2 }] },
+                { veces: 2, superior: [{ texto: 'New York Jets', cols: 7, rows: 2 }] },
+                { superior: [{ texto: 'New York Jets', cols: 5, rows: 2 }] },
             ]
         },
         {
@@ -778,8 +864,8 @@ export function initNflTableData() {
                         cols: 6
                     }]
                 },
-                { superior: [{ texto: 'Miami Dolphins', cols: 7, rows: 2 }] },
-                { superior: [{ texto: 'Miami Dolphins', cols: 1, rows: 2 }] },
+                { veces: 2, superior: [{ texto: 'Miami Dolphins', cols: 7, rows: 2 }] },
+                { superior: [{ texto: 'Miami Dolphins', cols: 5, rows: 2 }] },
             ]
         },
         {
@@ -787,8 +873,8 @@ export function initNflTableData() {
             etapas: [
                 { superior: [{ className: 'fila1', cols: 19 }] },
                 { superior: [{ className: 'fila1 linea_div', cols: 18 }] },
-                { veces: 2, superior: [{ texto: 'Cincinnati Bengals', cols: 8 }] },
-                // { superior: [{ texto: 'Cincinnati Bengals', cols: 6 }] },
+                { veces: 3, superior: [{ texto: 'Cincinnati Bengals', cols: 8 }] },
+                { superior: [{ texto: 'Cincinnati Bengals', cols: 3 }] },
             ]
         },
         {
@@ -798,8 +884,8 @@ export function initNflTableData() {
                 { superior: [{ className: 'fila2 prev_liga linea_div', cols: 18 }] },
                 { superior: [{ className: 'fila2 top2', cols: 2 }] },
                 { superior: [{ className: 'fila2 top2 linea_div', cols: 6 }] },
-                { superior: [{ className: 'top2', texto: 'Seattle Seahawks', cols: 7 }] },
-                { superior: [{ className: 'top2', texto: 'Seattle Seahawks', cols: 1 }] },
+                { veces: 2, superior: [{ className: 'top2', texto: 'Seattle Seahawks', cols: 7 }] },
+                { superior: [{ className: 'top2', texto: 'Seattle Seahawks', cols: 5 }] },
             ]
         },
         {
@@ -808,7 +894,8 @@ export function initNflTableData() {
                 { superior: [{ className: 'fila1', cols: 19 }] },
                 { superior: [{ className: 'fila1 linea_div', cols: 20 }] },
                 { superior: [{ className: 'fila1 linea_div', cols: 6 }] },
-                { superior: [{ texto: 'Tampa Bay Buccaneers', cols: 8 }] },
+                { veces: 2, superior: [{ texto: 'Tampa Bay Buccaneers', cols: 8 }] },
+                { superior: [{ texto: 'Tampa Bay Buccaneers', cols: 3 }] },
             ]
         },
     ])
